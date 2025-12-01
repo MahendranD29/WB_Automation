@@ -1,0 +1,5 @@
+SlNo,TestCaseName,Key,Value,Notes
+1,Launch Grid/Vantage HomePage on ST,LoginPageTitle,Vantage (ST),Login page verification text
+2,Login and Logoff from Grid/Vantage HomePage on ST,LoginPageTitle,Vantage (ST),Login page verification text
+3,Launch Grid/Vantage HomePage on ACC,LoginPageTitle,Vantage (ACC),Login page verification text
+4,Login and Logoff from Grid/Vantage HomePage on ACC,LoginPageTitle,Vantage (ACC),Login page verification text

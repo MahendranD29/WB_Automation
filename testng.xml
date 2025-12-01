@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suitename" >
+
+    <test name="testname">
+       <parameter name="cucumber.filter.tags" value="TAGS"/>
+      <classes>
+
+            <class
+                    name="cukeTests.web.RunCukesByFeatureWeb" />
+            <class
+                    name="cukeTests.web.RunCukesByFeatureWebFailed" />
+
+        </classes>
+    </test>
+</suite>
