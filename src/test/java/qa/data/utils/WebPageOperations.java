@@ -20,6 +20,7 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 
 public class WebPageOperations extends TestBaseClass {
@@ -195,6 +196,7 @@ public class WebPageOperations extends TestBaseClass {
             WebElement element = (WebElement) var3.next();
             element.getText().trim();
             if (text.equalsIgnoreCase(element.getText().trim())) {
+                Assert.assertEquals(text,element.getText().trim());
                 result = element;
                 break;
             }

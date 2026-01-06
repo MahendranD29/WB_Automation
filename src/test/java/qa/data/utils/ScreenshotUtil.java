@@ -39,7 +39,7 @@ public class ScreenshotUtil {
 
         byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
         //scenario.embed(screenshot, "image/png");
-        scenario.attach(screenshot, "image/png", "FailedScreenshot");
+        scenario.attach(screenshot, "image/png", "Screenshot");
         return fileName;
     }
     public static String captureScreenshot(WebDriver driver, String screenshotName)throws Exception {
