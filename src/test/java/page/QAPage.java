@@ -880,6 +880,7 @@ public class QAPage extends AppSpecificUtility {
         String actualText = Dictionary.getFromGlobalDictionary("Deleted List Category Name");
         String expectedText = Dictionary.getFromGlobalDictionary("Category Name");
         Assert.assertEquals(actualText, expectedText);
+        System.out.println();
 
     }
 
