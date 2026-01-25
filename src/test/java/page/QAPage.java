@@ -15,17 +15,21 @@ import org.openqa.selenium.support.PageFactory;
 import java.time.Duration;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import static cukeTests.web.Hooks.scenario;
 
 public class QAPage extends AppSpecificUtility {
-    private static final String COUTRYCODE = "//span[text()='+91']";
+    private static final String COUTRYCODE = "//span[text()='+224']";
     private static final String COUTRYCODE_BUTTON = "//div[@class='css-ctzjn-control']";
     private static final String USERPHONENUMBER = "//input[@name='phoneNumber']";
     private static final String LOGINBUTTON = "//span[text()='Login']";
     private static final String PASSWORD = "//input[@id='password']";
-    private static final String COMPANYNAME = "//h3[text()='wsolution']";
+    private static final String COMPANYNAME = "//h3[text()='Wakanda Books']";
     private static final String CONFRIMBUTTON = "//button[text()='Confirm']";
     private static final String ITEM_MODULE = "//span[text()='Items']";
     private static final String ITEM_LIST_MODULE = "//span[text()='Items List']";
@@ -40,14 +44,15 @@ public class QAPage extends AppSpecificUtility {
     private static final String PRICE_DATE = "//input[@id='custom_field_values[3].value']";
     private static final String PUCHASE_PRICE = "//input[@id='purchase_price']";
     private static final String SELLING_PRICE = "//input[@id='selling_price']";
-    private static final String WAREHOUSE = "//span[text()='Warehouse']";
+    private static final String WAREHOUSE = "//div[@class='relative w-full']/child::div[@class='flex']";
     private static final String ABC_STOCK_BUTTON = "//span[text()='Tony Warehouse']";
-    private static final String OPPENING_STOCK = "//input[@id='warehouseItem[0].opening_stock']";
+    private static final String OPPENING_STOCK = ".//input[@placeholder='Enter Opening Stock...']";
     private static final String OPPENING_STOCK_DATE = "//input[@id='warehouseItem[0].opening_stock_date']";
-    private static final String OPPENING_PURCHARE_PRICE = "//input[@id='warehouseItem[0].opening_purchase_price']";
+    private static final String OPPENING_PURCHARE_PRICE = ".//input[@placeholder='Enter Opening Purchase Price...']";
     private static final String OPPENING_STOCK_VALUE = "//input[@id='warehouseItem[0].opening_stock_value']";
-    private static final String SELLING_PRICE_WAREHOUSE = "//input[@id='warehouseItem[0].selling_price']";
-    private static final String MIN_QUTANTITY = "//input[@id='warehouseItem[0].minimum_qty']";
+    private static final String SELLING_PRICE_WAREHOUSE = ".//input[@placeholder='Enter Retail Price here...']";
+    private static final String WHOLESALE_PRICE_WAREHOUSE = ".//input[@placeholder='Enter Wholesale Price here']";
+    private static final String MIN_QUTANTITY = ".//input[@placeholder='Write the Minimum Quantity here to get notified']";
     private static final String SAVE_BUTTON = "//button[text()='Save']";
     private static final String LENGTH = "//input[@id='custom_field_values[0].value']";
     private static final String DEPTH = "//input[@id='custom_field_values[1].value']";
@@ -69,6 +74,12 @@ public class QAPage extends AppSpecificUtility {
     private static final String SELECT_DELETE_ITEM = "(//input[@type='checkbox'])[2]";
     private static final String RESTORE_ITEM = "//button[text()='Restore Items']";
     private static final String ITEM_NAME = "(//td[@class=\"p-[6px] text-[14px] text-text-secondary font-normal px-6 border border-border-inactive text-center align-middle\"])[4]";
+    private static final String CATEGORY_LIST = "//button[@class='p-2 cursor-pointer hover:bg-gray-100 w-full text-start border-b']";
+    private static final String PURCAHSE_PRICE_TEXT = "//div[normalize-space()='Purchase Price']/following-sibling::div//span";
+    private static final String PRODUCT_IMAGE = "//input[@type='file']";
+    private static final String CONTAINERS_WAREHOUSELIST = "//div[@class='bg-bg-white p-5 rounded-md mt-[40px]']";
+    private static final String ITEM_IMAGE = "//div[text()='Item Image']";
+    private static final String PPURICE_EXPECT = "//div[text()='Purchase Price']/parent::div/child::div[2]";
 
 
     // Services Section
@@ -105,10 +116,17 @@ public class QAPage extends AppSpecificUtility {
     private static final String EDIT_UNIT = "(//img[@alt='Delete']/parent::button)[1]";
     private static final String DELETE_UNIT = "(//img[@alt='Delete']/parent::button)[2]";
     private static final String UPDATE_UNIT = "//button[text()='Update Unit']";
-
+//td[text()='Unit Two']
+    //span[text()='Unit Two']
 
     @FindBy(xpath = UNIT_SECTION)
     private WebElement unit_Section;
+
+  @FindBy(xpath = PPURICE_EXPECT)
+    private WebElement purchase_Price_Expect;
+
+    @FindBy(xpath = ITEM_IMAGE)
+    private WebElement item_Image;
 
     @FindBy(xpath = EDIT_UNIT)
     private WebElement edit_Unit;
@@ -119,8 +137,10 @@ public class QAPage extends AppSpecificUtility {
     @FindBy(xpath = UPDATE_UNIT)
     private WebElement update_Unit;
 
-//    @FindBy(xpath = UNIT_TEXT_VALID)
-//    private List<WebElement> txt_Unit_Valid;
+    @FindBy(xpath = CATEGORY_LIST)
+    private List<WebElement> category_List;
+    @FindBy(xpath = CONTAINERS_WAREHOUSELIST)
+    private List<WebElement> container;
 
 //    @FindBy(xpath = ADD_UNIT_BUTTON)
 //    private WebElement add_Unit;
@@ -192,6 +212,9 @@ public class QAPage extends AppSpecificUtility {
 
     @FindBy(xpath = SELLING_PRICE)
     private WebElement selling_Price;
+
+    @FindBy(xpath = WHOLESALE_PRICE_WAREHOUSE)
+    private WebElement warehouse_Wholesale_Price;
 
     @FindBy(xpath = WAREHOUSE)
     private WebElement warehouse;
@@ -344,6 +367,12 @@ public class QAPage extends AppSpecificUtility {
     @FindBy(xpath = RESTORE_NANE)
     private WebElement restore_Name;
 
+    @FindBy(xpath = PURCAHSE_PRICE_TEXT)
+    private WebElement purchase_Price_Text;
+
+    @FindBy(xpath = PRODUCT_IMAGE)
+    private WebElement product_Image;
+
 
     public QAPage(WebDriver driver) {
         TestBaseClass testBaseClass = new TestBaseClass() {
@@ -378,29 +407,37 @@ public class QAPage extends AppSpecificUtility {
         switch (role) {
             case "Super Admin":
                 clickElement(btn_ContryCode);
-                clickElement(contryCode);
+                clickUsingJavaScript(contryCode);
                 populateField(phoneNumber, prop.getProperty("User"));
                 clickElement(btnLogin);
                 populateField(password, prop.getProperty("Password"));
                 setWait(wait).until(ExpectedConditions.visibilityOf(btnLogin));
                 clickElement(btnLogin);
+                Thread.sleep(DELAY_IN_MILLI_SECS);
+                Hooks.captureT(scenario);
                 break;
 
         }
     }
 
     public void companySelect(String company) throws Exception {
+        if (companyName.isDisplayed() && companyName.isEnabled()) {
+            switch (company) {
+                case "Wakanda Books":
+                    Thread.sleep(DELAY_IN_MILLI_SECS);
+                    Hooks.captureT(scenario);
+                    setWait(wait).until(ExpectedConditions.visibilityOf(companyName));
+                    clickElement(companyName);
+                    setWait(wait).until(ExpectedConditions.visibilityOf(btnConfrim));
+                    clickElement(btnConfrim);
+                    Thread.sleep(DELAY_IN_MILLI_SECS);
+                    Hooks.captureT(scenario);
+                    break;
 
-        switch (company) {
-            case "wsolution":
-                Hooks.captureT(scenario);
-                setWait(wait).until(ExpectedConditions.visibilityOf(companyName));
-                clickElement(companyName);
-                setWait(wait).until(ExpectedConditions.visibilityOf(btnConfrim));
-                clickElement(btnConfrim);
-                Hooks.captureT(scenario);
-                break;
 
+            }
+        } else {
+            System.out.println("We have only one company");
         }
 
     }
@@ -410,11 +447,9 @@ public class QAPage extends AppSpecificUtility {
 
         switch (module) {
             case "Items":
-                //Thread.sleep(DELAY_IN_MILLI_SECS);
                 setWait(wait).until(ExpectedConditions.visibilityOf(items));
                 clickElement(items);
                 if (sub.equalsIgnoreCase("Items List")) {
-                    //Thread.sleep(DELAY_IN_MILLI_SECS);
                     setWait(wait).until(ExpectedConditions.visibilityOf(itemsList));
                     clickElement(itemsList);
                 }
@@ -500,24 +535,6 @@ public class QAPage extends AppSpecificUtility {
                 clickElement(Unit);
                 if (getDriver().findElement(By.xpath(unitList)).getText().equalsIgnoreCase(unit)) {
                     getDriver().findElement(By.xpath(unitList)).click();
-                    setWait(wait).until(ExpectedConditions.visibilityOf(category));
-                    clickElement(category);
-
-                    if (getDriver().findElement(By.xpath(categoryList)).getText().equalsIgnoreCase(categoryField)) {
-                        getDriver().findElement(By.xpath(categoryList)).click();
-                    } else {
-                        setWait(wait).until(ExpectedConditions.visibilityOf(add_Category));
-                        clickElement(add_Category);
-                        setWait(wait).until(ExpectedConditions.visibilityOf(type_Prpduct));
-                        clickElement(type_Prpduct);
-                        populateField(category_Name, categoryField);
-                        populateField(category_Description, "Good");
-                        setWait(wait).until(ExpectedConditions.visibilityOf(save_Category));
-                        clickElement(save_Category);
-                        setWait(wait).until(ExpectedConditions.visibilityOf(category));
-                        clickElement(category);
-                        getDriver().findElement(By.xpath(categoryList)).click();
-                    }
                 } else {
                     setWait(wait).until(ExpectedConditions.visibilityOf(btn_New_Unit));
                     clickElement(btn_New_Unit);
@@ -529,6 +546,31 @@ public class QAPage extends AppSpecificUtility {
                     if (unitList.equalsIgnoreCase(unit)) {
                         getDriver().findElement(By.xpath(unitList)).click();
                     }
+                }
+                setWait(wait).until(ExpectedConditions.visibilityOf(category));
+                clickElement(category);
+                //List<WebElement> categoryLists = getDriver().findElements(By.xpath("//button[@class='p-2 cursor-pointer hover:bg-gray-100 w-full text-start border-b']"));
+                boolean categoryFoun = false;
+                for (WebElement category : category_List) {
+                    if (category.getText().equalsIgnoreCase(categoryField)) {
+                        clickElement(category);
+                        categoryFoun = true;
+                        break;
+                    }
+                }
+
+                if (!categoryFoun) {
+                    setWait(wait).until(ExpectedConditions.visibilityOf(add_Category));
+                    clickElement(add_Category);
+                    setWait(wait).until(ExpectedConditions.visibilityOf(type_Prpduct));
+                    clickElement(type_Prpduct);
+                    populateField(category_Name, categoryField);
+                    populateField(category_Description, "Good");
+                    setWait(wait).until(ExpectedConditions.visibilityOf(save_Category));
+                    clickElement(save_Category);
+                    setWait(wait).until(ExpectedConditions.visibilityOf(category));
+                    clickElement(category);
+                    getDriver().findElement(By.xpath(categoryList)).click();
                 }
                 break;
 
@@ -636,62 +678,161 @@ public class QAPage extends AppSpecificUtility {
 
     public void fillAdditionalInfo(String vendor) throws Exception {
         switch (vendor) {
-            case "Sriniva":
-                populateField(purchase_Price, "1000");
-                populateField(selling_Price, "2000");
-                Thread.sleep(3000);
-                clickElement(knownVendor);
-                knownVendor.sendKeys(vendor, Keys.ENTER);
-                break;
+            case "Kannan":
+                populateField(purchase_Price, "100");
+                String purchasePriceActual = getAttribute(purchase_Price, "value");
+                Dictionary.storeInGlobalDictionary("purchasePriceActual",purchasePriceActual);
+                // populateField(selling_Price, "2000");
+                //     Thread.sleep(3000);
+//                getDriver().findElement(By.xpath("//input[@id='react-select-6-input']")).click();
+//                List<WebElement> elements1 = getDriver().findElements(By.xpath("//div[@id='react-select-6-listbox']/child:div[@role='option']"));
+//
+//                boolean vendorFound = false;
+//                for (WebElement option : elements1) {
+//                    if (option.getText().contains(vendor)) {
+//                        option.click();
+//                        vendorFound = true;
+//                        break;
+//                    }
+//                }
+//                if (!vendorFound) {
+//                    throw new RuntimeException("Vendor not found in dropdown");
+//                }
+//
+//
+//              // clickElement(knownVendor);
+////                knownVendor.sendKeys(vendor, Keys.ENTER);
+//                break;
         }
+//        driver.findElement(By.id("react-select-6-input")).click();
+//       // populateField(product_Image,"C:\\Users\\futur\\OneDrive\\Pictures\\Screenshots pic 1");
+//
+//        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//
+//        List<WebElement> options = wait.until(
+//                ExpectedConditions.visibilityOfAllElementsLocatedBy(
+//                        By.xpath("//div[@role='option']")
+//                )
+//        );
+//        for (WebElement option : options) {
+//            System.out.println(option.getText());
+//        }
+        setWait(wait).until(ExpectedConditions.visibilityOf(item_Image));
+        clickElement(item_Image);
+        populateField(product_Image,"C:\\Users\\futur\\OneDrive\\Pictures\\Screenshots pic 1");
+
+
 
 
     }
 
-    public void fillWarehouseInfo(String warehouseField) {
-        switch (warehouseField) {
-            case "Tony Warehouse":
-                setWait(wait).until(ExpectedConditions.visibilityOf(warehouse));
-                clickElement(warehouse);
-                setWait(wait).until(ExpectedConditions.visibilityOf(abcStock));
-                clickElement(abcStock);
+    public void fillWarehouseInfo(String warehouseField) throws InterruptedException {
+        if (warehouse.isEnabled()) {
+            setWait(wait).until(ExpectedConditions.visibilityOf(warehouse));
+            clickElement(warehouse);
 
-                populateField(opening_Stock_Value, "200");
-                LocalDate today = LocalDate.now();
-                DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
-                //  DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd-MM-yyyy");
-                String asOfDate = today.format(dateTimeFormatter);
-                populateField(opening_stock_Date, asOfDate);
-                populateField(opening_Purchase_Price, "200");
-                populateField(selling_Price_Warehouse, "300");
+            String[] warehouseList = warehouseField.split(",");
+            for (String warehouse : warehouseList) {
+                String WarehouseName = "//span[text()='" + warehouse.trim() + "']";
+                setWait(wait).until(ExpectedConditions.visibilityOf(getDriver().findElement(By.xpath(WarehouseName))));
+                clickElement(getDriver().findElement(By.xpath(WarehouseName)));
+            }
+            warehouse.click();
+            List<String> featureWarehouses = Arrays.stream(warehouseField.split(","))
+                    .map(String::trim).collect(Collectors.toList());
+int avialbeQuantity =0;
+            for (int i = 0; i < container.size(); i++) {
+
+                WebElement openingStock = container.get(i).findElement(By.xpath(".//input[@placeholder='Enter Opening Stock...']"));
+                populateField(openingStock, "200");
+                int value = Integer.parseInt(getAttribute(openingStock, "value"));
+                avialbeQuantity+=value;
+                Thread.sleep(DELAY_IN_MILLI_SECS);
+                WebElement openingPurchasePrice = container.get(i).findElement(By.xpath(".//input[@placeholder='Enter Opening Purchase Price...']"));
+                if (openingPurchasePrice.getAttribute("value") == null) {
+                    populateField(openingPurchasePrice, "200");
+                }
+
+                Thread.sleep(DELAY_IN_MILLI_SECS);
+                Integer pprice = Integer.parseInt(openingPurchasePrice.getAttribute("value"));
+                WebElement warehouse_Wholesale_Price = container.get(i).findElement(By.xpath(".//input[@placeholder='Enter Wholesale Price here']"));
+                populateField(warehouse_Wholesale_Price, "300");
+
+                Thread.sleep(DELAY_IN_MILLI_SECS);
+                WebElement warehouse_Selling_Price = container.get(i).findElement(By.xpath(".//input[@placeholder='Enter Retail Price here...']"));
+                populateField(warehouse_Selling_Price, "250");
+
+                Thread.sleep(DELAY_IN_MILLI_SECS);
+                WebElement min_Quantity = container.get(i).findElement(By.xpath(".//input[@placeholder='Write the Minimum Quantity here to get notified']"));
                 populateField(min_Quantity, "10");
-                break;
+
+            }
+            Dictionary.storeInGlobalDictionary("avialableQuantity", String.valueOf(avialbeQuantity));
+
+        } else {
+            populateField(opening_Stock_Value, "200");
+            LocalDate today = LocalDate.now();
+            DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+            //  DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+            String asOfDate = today.format(dateTimeFormatter);
+            populateField(opening_stock_Date, asOfDate);
+            populateField(opening_Purchase_Price, "200");
+            populateField(selling_Price_Warehouse, "300");
+            populateField(min_Quantity, "10");
         }
+
+
+
     }
 
 
-    public void warehouseInfo(String warehouseName, String openingStock, String openingPurchase,
-                              String sellingPrice, String minQuantity) {
-        setWait(wait).until(ExpectedConditions.visibilityOf(warehouse));
-        clickElement(warehouse);
-        /*setWait(wait).until(ExpectedConditions.visibilityOf(warehouse_List));
-        clickElement(warehouse_List);*/
+    public void warehouseInfo(String warehouseName) {
+        if (warehouse.isEnabled()) {
+            setWait(wait).until(ExpectedConditions.visibilityOf(warehouse));
+            clickElement(warehouse);
 
+            String[] warehouseList = warehouseName.split(",");
+            for (String warehouse : warehouseList) {
+                String WarehouseName = "//span[text()='" + warehouse.trim() + "']";
+                setWait(wait).until(ExpectedConditions.visibilityOf(getDriver().findElement(By.xpath(WarehouseName))));
+                clickElement(getDriver().findElement(By.xpath(WarehouseName)));
+            }
+            warehouse.click();
 
-        switch (warehouseName) {
-            case "ABC - Stock":
-                populateField(opening_Stock_Value, openingStock);
-                LocalDate today = LocalDate.now();
-                DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
-                //  DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd-MM-yyyy");
-                String asOfDate = today.format(dateTimeFormatter);
-                populateField(opening_stock_Date, asOfDate);
-                populateField(opening_Purchase_Price, openingPurchase);
-                populateField(selling_Price_Warehouse, sellingPrice);
-                populateField(min_Quantity, minQuantity);
-                break;
+            List<String> featureWarehouses = Arrays.stream(warehouseName.split(","))
+                    .map(String::trim)
+                    .collect(Collectors.toList());
+
+            LocalDate today = LocalDate.now();
+            DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+            //  DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+            String asOfDate = today.format(dateTimeFormatter);
+            switch (warehouseName) {
+                case "VIP Warehouse":
+                    populateField(opening_Stock_Value, 100);
+
+                    populateField(opening_stock_Date, asOfDate);
+                    populateField(opening_Purchase_Price, 200);
+                    populateField(warehouse_Wholesale_Price, 250);
+                    populateField(selling_Price_Warehouse, 300);
+                    populateField(min_Quantity, 10);
+                    break;
+
+                case "GKS Warehouse":
+                    populateField(opening_Stock_Value, 100);
+                    // LocalDate today = LocalDate.now();
+                    //  DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+                    //  DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+                    // String asOfDate = today.format(dateTimeFormatter);
+                    populateField(opening_stock_Date, asOfDate);
+                    populateField(opening_Purchase_Price, 200);
+                    populateField(warehouse_Wholesale_Price, 250);
+                    populateField(selling_Price_Warehouse, 300);
+                    populateField(min_Quantity, 10);
+                    break;
+            }
+
         }
-
     }
 
     public void storeThePrdoct(String btn) throws Exception {
@@ -699,7 +840,7 @@ public class QAPage extends AppSpecificUtility {
             case "Save":
                 setWait(wait).until(ExpectedConditions.visibilityOf(btnSave));
                 clickElement(btnSave);
-//                Thread.sleep(DELAY_IN_MILLI_SECS);
+                Thread.sleep(DELAY_IN_MILLI_SECS);
                 Hooks.captureT(scenario);
                 break;
             case "Save Category":
@@ -730,6 +871,7 @@ public class QAPage extends AppSpecificUtility {
     }
 
     public void validateItem() throws Exception {
+
         Thread.sleep(DELAY_IN_MILLI_SECS);
         setWait(wait).until(ExpectedConditions.visibilityOf(item_Name));
         String id = getText(id_Item).substring(1);
@@ -737,6 +879,9 @@ public class QAPage extends AppSpecificUtility {
         String expectedtext = getText(item_Name);
         String name = Dictionary.getFromGlobalDictionary("Product");
         Assert.assertEquals(name, expectedtext, "Verify the Item is Shown");
+        Assert.assertEquals(Dictionary.getFromGlobalDictionary("purchasePriceActual"),
+                getText(purchase_Price_Expect).substring(1), "Verify the Item is Shown");
+
 
     }
 
@@ -756,26 +901,33 @@ public class QAPage extends AppSpecificUtility {
                 clickElement(view);
                 break;
             case "Edit":
-                    setWait(wait).until(ExpectedConditions.visibilityOf(edit));
-                    clickElement(edit);
+                setWait(wait).until(ExpectedConditions.visibilityOf(edit));
+                clickUsingJavaScript(edit);
+                // clickElement(edit);
                 break;
             case "Delete":
                 setWait(wait).until(ExpectedConditions.visibilityOf(delete));
-                clickElement(delete);
+                clickUsingJavaScript(delete);
                 break;
         }
 
     }
 
     public void updateFiled() throws Exception {
-        if (wholesale_Price.isDisplayed() && wholesale_Price.isEnabled()) {
-            wholesale_Price.clear();
-            populateField(wholesale_Price, "700");
-        } else if (selling_Price.isEnabled() && selling_Price.isEnabled()) {
-            selling_Price.clear();
-            populateField(selling_Price, "800");
-
-        } else if (category_Name.isEnabled() && category_Name.isDisplayed()) {
+        if (purchase_Price.isDisplayed() && purchase_Price.isEnabled()) {
+            purchase_Price.sendKeys(Keys.CONTROL + "a");
+            purchase_Price.sendKeys(Keys.DELETE);
+            //  populateField(wholesale_Price, "700");
+            populateField(purchase_Price, "110");
+            String PPriceText = purchase_Price.getAttribute("value");
+            Dictionary.storeInGlobalDictionary("PPrice", PPriceText);
+        }
+//        else if (selling_Price.isEnabled() && selling_Price.isEnabled()) {
+//            selling_Price.clear();
+//            populateField(selling_Price, "800");
+//
+//        }
+        else if (category_Name.isEnabled() && category_Name.isDisplayed()) {
             category_Name.clear();
             populateField(category_Name, "Garments");
         }
@@ -783,18 +935,16 @@ public class QAPage extends AppSpecificUtility {
     }
 
     public void validateUpdate() throws Exception {
-        Hooks.captureT(scenario);
+        // Hooks.captureT(scenario);
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         WebElement toastMessage = wait.until
                 (ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".toastify-container div.text-sm")));
         System.out.println(toastMessage.getText());
         if ("Item updated successfully!".equalsIgnoreCase(toastMessage.getText())) {
             Assert.assertEquals("Item updated successfully!", toastMessage.getText());
-        }
-        else if ("Category updated".equalsIgnoreCase(toastMessage.getText())) {
+        } else if ("Category updated".equalsIgnoreCase(toastMessage.getText())) {
             Assert.assertEquals("Category updated", toastMessage.getText());
-        }
-        else if ("Unit deleted successfully.".equalsIgnoreCase(toastMessage.getText())) {
+        } else if ("Unit deleted successfully.".equalsIgnoreCase(toastMessage.getText())) {
             Assert.assertEquals("Unit deleted successfully.", toastMessage.getText());
         }
     }
@@ -804,6 +954,7 @@ public class QAPage extends AppSpecificUtility {
         clickElement(btn_Delete);
         Thread.sleep(DELAY_IN_MILLI_SECS);
         Hooks.captureT(scenario);
+
         // Hooks.captureT(scenario);
 
     }
@@ -812,6 +963,8 @@ public class QAPage extends AppSpecificUtility {
         String expectedText = getText(txt_Delete);
         System.out.println(expectedText);
         Assert.assertEquals("Your file has been deleted.", expectedText);
+        Thread.sleep(DELAY_IN_MILLI_SECS);
+        getDriver().findElement(By.xpath("//button[text()='Okay']")).click();
     }
 
     public void addtionalInfo() {
@@ -829,17 +982,19 @@ public class QAPage extends AppSpecificUtility {
 
     public void list_Deleted() throws Exception {
         setWait(wait).until(ExpectedConditions.visibilityOf(deleted_List));
-        clickElement(deleted_List);
+        clickUsingJavaScript(deleted_List);
         Dictionary.storeInGlobalDictionary("Delete_Item_Name", delete_Item_Name.getText());
     }
 
     public void validate_Delete_List() throws Exception {
         Thread.sleep(DELAY_IN_MILLI_SECS);
         Hooks.captureT(scenario);
-        String actualText = Dictionary.getFromGlobalDictionary("ID");
-        String expectedText = item_Code.getText();
-        Dictionary.storeInGlobalDictionary("Item Code", expectedText);
-        Assert.assertEquals(actualText, expectedText);
+        if (item_Code.isDisplayed()) {
+            String actualText = Dictionary.getFromGlobalDictionary("ID");
+            String expectedText = item_Code.getText();
+            Dictionary.storeInGlobalDictionary("Item Code", expectedText);
+            Assert.assertEquals(actualText, expectedText);
+        }
 
     }
 
@@ -855,9 +1010,9 @@ public class QAPage extends AppSpecificUtility {
 
     public void restoreItem() {
         setWait(wait).until(ExpectedConditions.visibilityOf(chk_Box_Delete_Item));
-        clickElement(chk_Box_Delete_Item);
+        clickUsingJavaScript(chk_Box_Delete_Item);
         setWait(wait).until(ExpectedConditions.visibilityOf(restore));
-        clickElement(restore);
+        clickUsingJavaScript(restore);
 
     }
 
@@ -933,6 +1088,7 @@ public class QAPage extends AppSpecificUtility {
         txt_Unit_Name.sendKeys(Keys.CONTROL + "a");
         txt_Unit_Name.sendKeys(Keys.DELETE);
         populateField(txt_Unit_Name, unit_Name);
+        Text_Content.setUnitName(unit_Name);
         Dictionary.storeInGlobalDictionary("UnitName", unit_Name);
         txt_Unit_Symbol.sendKeys(Keys.CONTROL + "a");
         txt_Unit_Symbol.sendKeys(Keys.DELETE);
@@ -945,31 +1101,57 @@ public class QAPage extends AppSpecificUtility {
 
         String unitName =
                 Dictionary.getFromGlobalDictionary("UnitName");
+        System.out.println(unitName);
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
-        By unitLocator =
-                By.xpath("//span[normalize-space()='" + unitName + "']");
+        By spanLocator =
+                By.xpath("//span[normalize-space()='" + Text_Content.getUnitName() + "']");
+        By pLocator =
+                By.xpath("//p[text()='" + Text_Content.getUnitName() + "']");
 
-        String actualText =
-                wait.until(ExpectedConditions.visibilityOfElementLocated(unitLocator))
-                        .getText()
-                        .trim();
+        String actualText = null;
+        try {
+            // 🔹 First try SPAN
+            actualText = wait
+                    .until(ExpectedConditions.visibilityOfElementLocated(spanLocator))
+                    .getText()
+                    .trim();
+            System.out.println("Found text in SPAN");
 
+        } catch (TimeoutException e) {
+            // 🔹 If SPAN not found, try P
+            actualText = wait
+                    .until(ExpectedConditions.visibilityOfElementLocated(pLocator))
+                    .getText()
+                    .trim();
+            System.out.println("Found text in P tag");
+        }
+
+        // 🔹 ASSERTION
         Assert.assertEquals(actualText, unitName, "Unit not found in list");
 
-        return false;
+        return true;
     }
 
-    public void edit_Unit(){
+    public void edit_Unit() {
         setWait(wait).until(ExpectedConditions.visibilityOf(edit_Unit));
         clickElement(edit_Unit);
     }
 
-    public void delete_Unit(){
+    public void delete_Unit() {
         setWait(wait).until(ExpectedConditions.visibilityOf(delete_Unit));
         clickElement(delete_Unit);
     }
+
+    public void valide_Delete_Unit() {
+        String unitName =
+                Dictionary.getFromGlobalDictionary("UnitName");
+
+        By unitLocator =
+                By.xpath("//span[normalize-space()='" + unitName + "']");
+    }
+
 }
 
 

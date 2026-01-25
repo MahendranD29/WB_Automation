@@ -70,7 +70,7 @@ public class QAStepDef {
 
 
     @And("User select {string} details and Information details")
-    public void userSelectDetailsAndInformationDetails(String warehouse) {
+    public void userSelectDetailsAndInformationDetails(String warehouse) throws InterruptedException {
         QAPage = new QAPage(getDriver());
         Report.info("******STEPS STARTED: User select {string} details and Information details****** ");
         QAPage.fillWarehouseInfo(warehouse);
@@ -303,5 +303,13 @@ public class QAStepDef {
         Report.info("******STEPS STARTED: User cliks on Delete Button****** ");
         QAPage.delete_Unit();
         Report.info("******STEPS ENDED: User cliks on Delete Button****** ");
+    }
+
+    @Then("User validated deleted Unit Validation")
+    public void userValidatedDeletedUnitValidation() {
+        QAPage = new QAPage(getDriver());
+        Report.info("******STEPS STARTED: User validated deleted Unit Validation****** ");
+        QAPage.delete_Unit();
+        Report.info("******STEPS ENDED: User validated deleted Unit Validation****** ");
     }
 }

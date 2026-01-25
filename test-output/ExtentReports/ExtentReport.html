@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Cucumber TestNG Framework</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jan 4, 2026 08:02:29 pm</span></a>
+<a href="#"><span class="badge badge-primary">Jan 23, 2026 06:31:34 pm</span></a>
 </li>
 </ul>
 </div>
@@ -84,7 +84,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@Unit_Delete</a><a class="dropdown-item" href="#">@TC002</a>
+<a class="dropdown-item" href="#">@Product_Creation</a><a class="dropdown-item" href="#">@End_to_End</a>
 </ul>
 </li>
 </ul>
@@ -97,7 +97,7 @@
           <div class="test-detail">
             <p class="name">1-1-TC-01-Sample CREATION -</p>
             <p class="text-sm">
-              <span>8:02:31 pm</span> / <span>00:01:28:478</span>
+              <span>6:31:35 pm</span> / <span>00:00:50:066</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -106,9 +106,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">1-1-TC-01-Sample CREATION -</h5>
-<span class='badge badge-success'>01.04.2026 8:02:31 pm</span>
-<span class='badge badge-danger'>01.04.2026 8:03:59 pm</span>
-<span class='badge badge-default'>00:01:28:478</span>
+<span class='badge badge-success'>01.23.2026 6:31:35 pm</span>
+<span class='badge badge-danger'>01.23.2026 6:32:25 pm</span>
+<span class='badge badge-default'>00:00:50:066</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -120,7 +120,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Valaidate Update Of the Unit</div>
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Valaidate Creation Of the Product</div>
           <div class="status-avatar float-right mr-4">
             <i class="fa fa-paperclip"></i>
           </div>
@@ -130,7 +130,7 @@
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="3"><span class="badge log fail-bg mr-2">Fail</span>Valaidate Update Of the Unit</div>
+                  <div class="node" id="3"><span class="badge log fail-bg mr-2">Fail</span>Valaidate Creation Of the Product</div>
                     <div class="status-avatar float-right">
                       <i class="fa fa-paperclip"></i>
                     </div>
@@ -148,77 +148,133 @@
       </div>
                   </div>
                   <div class="step pass-bg">
-                    <span>When User select "wsolution" on login page</span>
-      <div>Screenshot
-          <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='./screenshots/embedded1.png' src="./screenshots/embedded1.png">
-    
-    </div></div>
-</div>
-      <div>Screenshot
-          <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='./screenshots/embedded2.png' src="./screenshots/embedded2.png">
-    
-    </div></div>
-</div>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
                     <span>When User clicks on "Items" and Select "Items List"</span>
       <div>
       </div>
                   </div>
                   <div class="step pass-bg">
-                    <span>When User Click on "Unit" module</span>
+                    <span>When User clicks on "Add Product" in Items list</span>
       <div>
       </div>
                   </div>
                   <div class="step pass-bg">
-                    <span>When User cliks on Delete Button</span>
+                    <span>And User Field as "Product" and add Values "Nutt", "PC","Electonicsss" details</span>
       <div>
       </div>
                   </div>
                   <div class="step pass-bg">
-                    <span>When User Clicks on delete in Wakanda Books</span>
-      <div>Screenshot
-          <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='./screenshots/embedded3.png' src="./screenshots/embedded3.png">
-    
-    </div></div>
-</div>
+                    <span>And User add "Kannan" in Additional Information details</span>
       <div>
       </div>
                   </div>
                   <div class="step fail-bg">
-                    <span>Then User validated updated the message</span>
-      <div>Screenshot
-          <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='./screenshots/embedded4.png' src="./screenshots/embedded4.png">
-    
-    </div></div>
-</div>
+                    <span>And User select "VIP  Warehouse,MD-BLR - Stock,GKS Warehouse" details and Information details</span>
       <div>
-        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: .toastify-container div.text-sm (tried for 15 second(s) with 500 milliseconds interval)
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='relative w-full']/child::div[@class='flex']"}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: '4.38.0', revision: '6b412e825c*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.17'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56885}, goog:processID: 20760, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56885/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ceab1ff5c1dcf9d5730b67f2d59ff268
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at page.QAPage.validateUpdate(QAPage.java:789)
-	at cukeTests.web.step.QAStepDef.userValidatedUpdatedTheMessage(QAStepDef.java:149)
-	at ✽.User validated updated the message(file:///C:/PROJECT/WAKANDA_BOOKS_AUTOMATION/src/test/resources/features_web/1-1-TC02-QA.feature:367)
+Command: [2be8faf4cdafe6f2034ab12d7cc3fe62, findElement {value=//div[@class='relative w-full']/child::div[@class='flex'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\futur\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:47417}, goog:processID: 22456, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:47417/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2be8faf4cdafe6f2034ab12d7cc3fe62
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy44.isEnabled(Unknown Source)
+	at page.QAPage.fillWarehouseInfo(QAPage.java:710)
+	at cukeTests.web.step.QAStepDef.userSelectDetailsAndInformationDetails(QAStepDef.java:76)
+	at ✽.User select "VIP  Warehouse,MD-BLR - Stock,GKS Warehouse" details and Information details(file:///C:/Users/futur/IdeaProjects/WB_Automation/src/test/resources/features_web/1-1-TC02-QA.feature:15)
 </textarea>
       
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User Clicks on "Save" in Wakanda Books</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then User Validate the in Items List</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User cliks on "Edit" and fill the detaitais</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User fill the update detaitais</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then User validated updated the message</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User Clicks on "Save" in Wakanda Books</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User cliks on "Delete" and fill the detaitais</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User Clicks on delete in Wakanda Books</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then User validated deleted the message</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User Clicks on deleted List</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then User validated deleted Item</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User Restore the deteted item</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then User Validate the Restore the item</span>
+      <div>Step skipped
       </div>
                   </div>
                   <div class="step pass-bg">
                     <span>cukeTests.web.Hooks.afterScenario()</span>
       <div>Screenshot
           <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='./screenshots/embedded5.png' src="./screenshots/embedded5.png">
+<img data-featherlight='./screenshots/embedded1.png' src="./screenshots/embedded1.png">
     
     </div></div>
 </div>
@@ -254,12 +310,12 @@ Session ID: ceab1ff5c1dcf9d5730b67f2d59ff268
 <span class="meta">
 <span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">org.openqa.selenium.TimeoutException</p>
+<p class="name">org.openqa.selenium.NoSuchElementException</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>org.openqa.selenium.TimeoutException</h4>
+<h4>org.openqa.selenium.NoSuchElementException</h4>
 <span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -273,11 +329,11 @@ Session ID: ceab1ff5c1dcf9d5730b67f2d59ff268
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>20:03:21 pm</td>
+<td>18:31:52 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='12'>Then User validated updated the message</a>
+<a href="#" class="linked" test-id='1' id='11'>And User select "VIP Warehouse,MD-BLR - Stock,GKS Warehouse" details and Information details</a>
 <div class="">
-<span class="badge badge-default">1-1-TC-01-Sample CREATION -.Valaidate Update Of the Unit.Then User validated updated the message</span>
+<span class="badge badge-default">1-1-TC-01-Sample CREATION -.Valaidate Creation Of the Product.And User select "VIP Warehouse,MD-BLR - Stock,GKS Warehouse" details and Information details</span>
 </div>
 </td>
 </tr>
@@ -306,12 +362,12 @@ Session ID: ceab1ff5c1dcf9d5730b67f2d59ff268
 <span class="meta">
 <span class='badge log badge-danger'>2</span>
 </span>
-<p class="name">@Unit_Delete</p>
+<p class="name">@Product_Creation</p>
 <p class="duration text-sm">2 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@Unit_Delete</h4>
+<h4>@Product_Creation</h4>
 <span status="fail" class='badge log badge-danger'>2 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -325,21 +381,21 @@ Session ID: ceab1ff5c1dcf9d5730b67f2d59ff268
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>20:02:31 pm</td>
+<td>18:31:35 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>Valaidate Update Of the Unit</a>
+<a href="#" class="linked" test-id='1' id='2'>Valaidate Creation Of the Product</a>
 <div class="">
-<span class="badge badge-default">1-1-TC-01-Sample CREATION -.Valaidate Update Of the Unit</span>
+<span class="badge badge-default">1-1-TC-01-Sample CREATION -.Valaidate Creation Of the Product</span>
 </div>
 </td>
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>20:02:31 pm</td>
+<td>18:31:35 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='3'>Valaidate Update Of the Unit</a>
+<a href="#" class="linked" test-id='1' id='3'>Valaidate Creation Of the Product</a>
 <div class="">
-<span class="badge badge-default">1-1-TC-01-Sample CREATION -.Valaidate Update Of the Unit</span>
+<span class="badge badge-default">1-1-TC-01-Sample CREATION -.Valaidate Creation Of the Product</span>
 </div>
 </td>
 </tr>
@@ -352,12 +408,12 @@ Session ID: ceab1ff5c1dcf9d5730b67f2d59ff268
 <span class="meta">
 <span class='badge log badge-danger'>2</span>
 </span>
-<p class="name">@TC002</p>
+<p class="name">@End_to_End</p>
 <p class="duration text-sm">2 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@TC002</h4>
+<h4>@End_to_End</h4>
 <span status="fail" class='badge log badge-danger'>2 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -371,21 +427,21 @@ Session ID: ceab1ff5c1dcf9d5730b67f2d59ff268
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>20:02:31 pm</td>
+<td>18:31:35 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>Valaidate Update Of the Unit</a>
+<a href="#" class="linked" test-id='1' id='2'>Valaidate Creation Of the Product</a>
 <div class="">
-<span class="badge badge-default">1-1-TC-01-Sample CREATION -.Valaidate Update Of the Unit</span>
+<span class="badge badge-default">1-1-TC-01-Sample CREATION -.Valaidate Creation Of the Product</span>
 </div>
 </td>
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>20:02:31 pm</td>
+<td>18:31:35 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='3'>Valaidate Update Of the Unit</a>
+<a href="#" class="linked" test-id='1' id='3'>Valaidate Creation Of the Product</a>
 <div class="">
-<span class="badge badge-default">1-1-TC-01-Sample CREATION -.Valaidate Update Of the Unit</span>
+<span class="badge badge-default">1-1-TC-01-Sample CREATION -.Valaidate Creation Of the Product</span>
 </div>
 </td>
 </tr>
@@ -406,13 +462,13 @@ Session ID: ceab1ff5c1dcf9d5730b67f2d59ff268
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jan 4, 2026 08:02:29 pm</h3>
+<h3>Jan 23, 2026 06:31:34 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jan 4, 2026 08:03:59 pm</h3>
+<h3>Jan 23, 2026 06:32:25 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -483,10 +539,10 @@ Session ID: ceab1ff5c1dcf9d5730b67f2d59ff268
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='88%'><b>8</b> steps passed</small></div>
+<div><small data-tooltip='33%'><b>7</b> steps passed</small></div>
 <div>
-<small data-tooltip='11%'><b>1</b> steps failed,
-<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='4%'><b>1</b> steps failed,
+<b>13</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -502,7 +558,7 @@ Session ID: ceab1ff5c1dcf9d5730b67f2d59ff268
 </div></div>
 <script>
 var timeline = {
-"1-1-TC-01-Sample CREATION -":88.478
+"1-1-TC-01-Sample CREATION -":50.066
 };
 </script>
 <div class="row">
@@ -512,7 +568,7 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@Unit_Delete</td>
+<td>@Product_Creation</td>
 <td>0</td>
 <td>2</td>
 <td>0</td>
@@ -520,7 +576,7 @@ var timeline = {
 <td>0%</td>
 </tr>
 <tr>
-<td>@TC002</td>
+<td>@End_to_End</td>
 <td>0</td>
 <td>2</td>
 <td>0</td>
@@ -547,10 +603,10 @@ warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 8,
+passGrandChild: 7,
 failGrandChild: 1,
 warningGrandChild: 0,
-skipGrandChild: 0,
+skipGrandChild: 13,
 infoGrandChild: 0,
 eventsCount: 5,
 };

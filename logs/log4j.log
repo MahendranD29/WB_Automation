@@ -5681,3 +5681,886 @@ Session ID: 98bae2759a5b38097b2c017bae1bf7f4
 [INFO ] 2026-01-04 20:02:32.192 [main] log4jBaseClass - URL will be accessed via LDAP
 [ERROR] 2026-01-04 20:03:53.193 [main] log4jBaseClass - Test scenario Failed for:Valaidate Update Of the Unit
 [INFO ] 2026-01-04 20:03:53.195 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-11 18:32:17.185 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-11 18:32:17.199 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Update Of the Unit       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-11 18:32:17.201 [main] log4jBaseClass - ****************************************************************************************
+[ERROR] 2026-01-11 18:32:17.213 [main] log4jBaseClass - Error occured while creating single user performance report. Stack trace:The system cannot find the path specified
+[INFO ] 2026-01-11 18:32:17.243 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-11 18:32:17.243 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-11 18:32:17.247 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-11 18:32:17.247 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-11 18:33:31.674 [main] log4jBaseClass - Test scenario Failed for:Valaidate Update Of the Unit
+[INFO ] 2026-01-11 18:33:31.678 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-11 18:36:02.170 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-11 18:36:02.186 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Update Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-11 18:36:02.186 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-11 18:36:02.186 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-11 18:36:02.186 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-11 18:36:02.186 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-11 18:36:02.186 [main] log4jBaseClass - URL will be accessed via LDAP
+[INFO ] 2026-01-11 18:36:18.619 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-11 18:41:18.712 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-11 18:41:18.719 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Update Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-11 18:41:18.719 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-11 18:41:18.719 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-11 18:41:18.719 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-11 18:41:18.719 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-11 18:41:18.735 [main] log4jBaseClass - URL will be accessed via LDAP
+[INFO ] 2026-01-11 18:41:35.378 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-11 18:45:09.363 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-11 18:45:09.365 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Unit       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-11 18:45:09.365 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-11 18:45:09.371 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-11 18:45:09.371 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-11 18:45:09.371 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-11 18:45:09.371 [main] log4jBaseClass - URL will be accessed via LDAP
+[INFO ] 2026-01-11 18:46:51.783 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-11 18:46:51.783 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Unit       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-11 18:46:51.783 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-11 18:46:51.795 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-11 18:46:51.795 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-11 18:46:51.795 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-11 18:46:51.795 [main] log4jBaseClass - URL will be accessed via LDAP
+[INFO ] 2026-01-11 18:47:07.556 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-11 18:47:09.914 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-11 18:47:09.914 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Update Of the Unit       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-11 18:47:09.914 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-11 18:47:09.917 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-11 18:47:09.917 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-11 18:47:09.917 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-11 18:47:09.917 [main] log4jBaseClass - URL will be accessed via LDAP
+[INFO ] 2026-01-11 18:47:25.575 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-11 18:47:27.875 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-11 18:47:27.875 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Update Of the Unit       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-11 18:47:27.875 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-11 18:47:27.875 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-11 18:47:27.875 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-11 18:47:27.875 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-11 18:47:27.875 [main] log4jBaseClass - URL will be accessed via LDAP
+[INFO ] 2026-01-11 18:47:43.917 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-11 19:49:25.614 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-11 19:49:25.614 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Deleted Of the Service Category Restore       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-11 19:49:25.614 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-11 19:49:25.630 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-11 19:49:25.630 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-11 19:49:25.630 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-11 19:49:25.630 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-11 19:49:35.207 [main] log4jBaseClass - Test scenario Failed for:Valaidate Deleted Of the Service Category Restore
+[INFO ] 2026-01-11 19:49:35.209 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-11 19:50:09.726 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-11 19:50:09.726 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Deleted Of the Service Category Restore       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-11 19:50:09.726 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-11 19:50:09.758 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-11 19:50:09.758 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-11 19:50:09.758 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-11 19:50:09.758 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-11 19:51:29.977 [main] log4jBaseClass - Test scenario Failed for:Valaidate Deleted Of the Service Category Restore
+[INFO ] 2026-01-11 19:51:29.977 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-11 19:55:04.429 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-11 19:55:04.436 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Deleted Of the Service Category Restore       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-11 19:55:04.436 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-11 19:55:04.455 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-11 19:55:04.455 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-11 19:55:04.455 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-11 19:55:04.455 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-11 19:55:51.570 [main] log4jBaseClass - Test scenario Failed for:Valaidate Deleted Of the Service Category Restore
+[INFO ] 2026-01-11 19:55:51.570 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-12 20:34:40.270 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-12 20:34:40.275 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Deleted Of the Service Category Restore       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-12 20:34:40.275 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-12 20:34:40.309 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-12 20:34:40.309 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-12 20:34:40.309 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-12 20:34:40.309 [main] log4jBaseClass - URL will be accessed via LDAP
+[INFO ] 2026-01-12 20:35:38.330 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-12 20:35:38.337 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Deleted Of the Service Category Restore       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-12 20:35:38.337 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-12 20:35:38.348 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-12 20:35:38.348 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-12 20:35:38.348 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-12 20:35:38.348 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-12 20:36:05.141 [main] log4jBaseClass - Test scenario Failed for:Valaidate Deleted Of the Service Category Restore
+[INFO ] 2026-01-12 20:36:05.141 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-12 20:36:18.747 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-12 20:36:18.757 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Deleted Of the Service Category Restore       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-12 20:36:18.757 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-12 20:36:18.773 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-12 20:36:18.773 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-12 20:36:18.773 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-12 20:36:18.773 [main] log4jBaseClass - URL will be accessed via LDAP
+[INFO ] 2026-01-12 20:37:29.741 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-12 20:37:29.746 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Deleted Of the Service Category Restore       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-12 20:37:29.746 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-12 20:37:29.766 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-12 20:37:29.766 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-12 20:37:29.766 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-12 20:37:29.766 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-12 20:38:58.320 [main] log4jBaseClass - Test scenario Failed for:Valaidate Deleted Of the Service Category Restore
+[INFO ] 2026-01-12 20:38:58.320 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-12 20:39:49.108 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-12 20:39:49.123 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Unit       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-12 20:39:49.123 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-12 20:39:49.140 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-12 20:39:49.140 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-12 20:39:49.140 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-12 20:39:49.140 [main] log4jBaseClass - URL will be accessed via LDAP
+[INFO ] 2026-01-12 20:40:21.725 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-12 20:40:24.208 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-12 20:40:24.208 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Delete Of the Unit       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-12 20:40:24.208 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-12 20:40:24.208 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-12 20:40:24.208 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-12 20:40:24.208 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-12 20:40:24.208 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-12 20:41:40.698 [main] log4jBaseClass - Test scenario Failed for:Valaidate Delete Of the Unit
+[INFO ] 2026-01-12 20:41:40.698 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-12 20:41:43.059 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-12 20:41:43.059 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Deleted Of the Service Category Restore       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-12 20:41:43.059 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-12 20:41:43.059 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-12 20:41:43.059 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-12 20:41:43.059 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-12 20:41:43.059 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-12 20:43:03.112 [main] log4jBaseClass - Test scenario Failed for:Valaidate Deleted Of the Service Category Restore
+[INFO ] 2026-01-12 20:43:03.114 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-13 16:56:56.854 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-13 16:56:56.854 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-13 16:56:56.854 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-13 16:56:56.890 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-13 16:56:56.890 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-13 16:56:56.890 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-13 16:56:56.890 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-13 16:57:44.879 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-13 16:57:44.882 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-13 17:02:14.893 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-13 17:02:14.899 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-13 17:02:14.899 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-13 17:02:14.917 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-13 17:02:14.917 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-13 17:02:14.917 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-13 17:02:14.917 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-13 17:03:08.515 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-13 17:03:08.515 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-13 17:08:17.909 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-13 17:08:17.913 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-13 17:08:17.915 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-13 17:08:17.935 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-13 17:08:17.943 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-13 17:08:17.943 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-13 17:08:17.943 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-13 17:09:06.943 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-13 17:09:06.943 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 10:24:09.769 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 10:24:09.772 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 10:24:09.772 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 10:24:09.795 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 10:24:09.795 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 10:24:09.795 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 10:24:09.795 [main] log4jBaseClass - URL will be accessed via LDAP
+[INFO ] 2026-01-22 10:25:01.128 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 10:25:01.133 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 10:25:01.133 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 10:25:01.138 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 10:25:01.138 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 10:25:01.138 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 10:25:01.138 [main] log4jBaseClass - URL will be accessed via LDAP
+[INFO ] 2026-01-22 10:25:57.515 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 10:25:57.521 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 10:25:57.521 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 10:25:57.538 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 10:25:57.538 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 10:25:57.541 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 10:25:57.541 [main] log4jBaseClass - URL will be accessed via LDAP
+[INFO ] 2026-01-22 10:27:13.859 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 10:27:13.859 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 10:27:13.859 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 10:27:13.874 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 10:27:13.874 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 10:27:13.874 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 10:27:13.890 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 10:28:54.836 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 10:28:54.841 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 10:29:08.237 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 10:29:08.248 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 10:29:08.248 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 10:29:08.261 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 10:29:08.261 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 10:29:08.261 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 10:29:08.261 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 10:30:47.809 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 10:30:47.809 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 10:32:04.501 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 10:32:04.509 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 10:32:04.509 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 10:32:04.530 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 10:32:04.530 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 10:32:04.530 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 10:32:04.530 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 10:33:01.906 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 10:33:01.906 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 10:39:50.050 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 10:39:50.053 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 10:39:50.053 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 10:39:50.065 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 10:39:50.065 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 10:39:50.065 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 10:39:50.065 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 10:40:16.521 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 10:40:16.525 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 10:40:45.827 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 10:40:45.838 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 10:40:45.838 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 10:40:45.855 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 10:40:45.855 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 10:40:45.855 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 10:40:45.855 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 10:40:57.369 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 10:40:57.369 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 10:41:34.610 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 10:41:34.617 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 10:41:34.617 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 10:41:34.636 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 10:41:34.636 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 10:41:34.639 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 10:41:34.639 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 10:42:25.706 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 10:42:25.706 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 10:54:40.993 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 10:54:40.993 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 10:54:40.993 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 10:54:41.013 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 10:54:41.013 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 10:54:41.013 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 10:54:41.013 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 10:55:30.453 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 10:55:30.461 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 11:29:10.680 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 11:29:10.687 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 11:29:10.687 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 11:29:10.709 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 11:29:10.709 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 11:29:10.711 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 11:29:10.712 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 11:29:31.281 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 11:29:31.281 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 11:52:31.416 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 11:52:31.416 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 11:52:31.416 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 11:52:31.432 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 11:52:31.432 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 11:52:31.432 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 11:52:31.432 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 11:52:47.252 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 11:52:47.252 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 12:00:03.830 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 12:00:03.837 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 12:00:03.837 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 12:00:03.854 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 12:00:03.854 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 12:00:03.854 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 12:00:03.854 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 12:00:19.984 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 12:00:19.984 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 12:02:26.119 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 12:02:26.119 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 12:02:26.119 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 12:02:26.135 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 12:02:26.135 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 12:02:26.135 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 12:02:26.135 [main] log4jBaseClass - URL will be accessed via LDAP
+[INFO ] 2026-01-22 12:04:01.671 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 12:04:01.671 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 12:04:01.671 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 12:04:01.687 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 12:04:01.687 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 12:04:01.687 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 12:04:01.687 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 12:04:47.859 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 12:04:47.859 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 12:26:15.841 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 12:26:15.845 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 12:26:15.845 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 12:26:15.860 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 12:26:15.860 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 12:26:15.860 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 12:26:15.860 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 12:27:05.464 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 12:27:05.466 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 12:32:58.022 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 12:32:58.022 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 12:32:58.022 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 12:32:58.038 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 12:32:58.038 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 12:32:58.038 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 12:32:58.038 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 12:35:52.113 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 12:35:52.114 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 12:45:53.831 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 12:45:53.841 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 12:45:53.841 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 12:45:53.856 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 12:45:53.856 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 12:45:53.856 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 12:45:53.856 [main] log4jBaseClass - URL will be accessed via LDAP
+[INFO ] 2026-01-22 13:13:16.607 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 13:13:16.612 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 13:13:16.612 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 13:13:16.622 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 13:13:16.622 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 13:13:16.622 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 13:13:16.622 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 13:14:02.763 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 13:14:02.763 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 16:01:55.142 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 16:01:55.146 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 16:01:55.146 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 16:01:55.160 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 16:01:55.160 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 16:01:55.160 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 16:01:55.160 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 16:02:48.151 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 16:02:48.151 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 16:08:21.890 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 16:08:21.890 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 16:08:21.890 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 16:08:21.905 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 16:08:21.905 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 16:08:21.905 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 16:08:21.905 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 16:09:11.604 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 16:09:11.604 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 16:12:23.059 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 16:12:23.059 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 16:12:23.066 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 16:12:23.072 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 16:12:23.072 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 16:12:23.087 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 16:12:23.087 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 16:13:12.712 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 16:13:12.712 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 16:19:49.725 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 16:19:49.725 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 16:19:49.725 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 16:19:49.742 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 16:19:49.742 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 16:19:49.742 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 16:19:49.742 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 16:20:09.391 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 16:20:09.391 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 16:25:27.101 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 16:25:27.108 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 16:25:27.108 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 16:25:27.124 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 16:25:27.124 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 16:25:27.124 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 16:25:27.124 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 16:26:16.178 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 16:26:16.178 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 16:32:44.280 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 16:32:44.280 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 16:32:44.280 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 16:32:44.295 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 16:32:44.295 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 16:32:44.295 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 16:32:44.295 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 16:33:33.419 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 16:33:33.419 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 16:38:43.937 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 16:38:43.945 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 16:38:43.947 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 16:38:43.969 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 16:38:43.969 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 16:38:43.969 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 16:38:43.969 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 16:39:11.749 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 16:39:11.751 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 16:40:32.814 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 16:40:32.814 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 16:40:32.814 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 16:40:32.839 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 16:40:32.840 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 16:40:32.840 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 16:40:32.840 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 16:41:00.486 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 16:41:00.486 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 16:53:33.330 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 16:53:33.334 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 16:53:33.334 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 16:53:33.351 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 16:53:33.351 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 16:53:33.357 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 16:53:33.357 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 16:54:02.514 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 16:54:02.514 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 17:08:14.648 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 17:08:14.654 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 17:08:14.654 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 17:08:14.677 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 17:08:14.677 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 17:08:14.688 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 17:08:14.688 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 17:09:12.643 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 17:09:12.643 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 18:09:51.413 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 18:09:51.427 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 18:09:51.427 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 18:09:51.454 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 18:09:51.454 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 18:09:51.466 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 18:09:51.466 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 18:10:54.608 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 18:10:54.608 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 18:14:11.330 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 18:14:11.336 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 18:14:11.336 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 18:14:11.345 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 18:14:11.345 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 18:14:11.345 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 18:14:11.345 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 18:14:59.384 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 18:14:59.384 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 18:19:01.452 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 18:19:01.460 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 18:19:01.460 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 18:19:01.471 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 18:19:01.471 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 18:19:01.471 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 18:19:01.471 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 18:19:47.935 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 18:19:47.937 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 18:27:43.623 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 18:27:43.623 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 18:27:43.623 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 18:27:43.640 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 18:27:43.640 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 18:27:43.640 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 18:27:43.645 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 18:28:30.794 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 18:28:30.794 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 18:30:21.264 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 18:30:21.264 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 18:30:21.264 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 18:30:21.280 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 18:30:21.280 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 18:30:21.280 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 18:30:21.280 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 18:31:10.314 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 18:31:10.314 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 18:46:35.177 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 18:46:35.184 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 18:46:35.184 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 18:46:35.199 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 18:46:35.199 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 18:46:35.199 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 18:46:35.199 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 18:47:23.365 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 18:47:23.365 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 21:13:57.071 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 21:13:57.077 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 21:13:57.077 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 21:13:57.097 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 21:13:57.099 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 21:13:57.099 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 21:13:57.100 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 21:14:53.441 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 21:14:53.443 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-22 21:22:55.154 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 21:22:55.168 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 21:22:55.168 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 21:22:55.188 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 21:22:55.188 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 21:22:55.188 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 21:22:55.188 [main] log4jBaseClass - URL will be accessed via LDAP
+[INFO ] 2026-01-22 21:50:39.648 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 21:50:39.654 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-22 21:50:39.654 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-22 21:50:39.662 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 21:50:39.662 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-22 21:50:39.670 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-22 21:50:39.670 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-22 21:51:31.279 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-22 21:51:31.279 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 11:04:03.701 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 11:04:03.705 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 11:04:03.705 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 11:04:03.720 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 11:04:03.720 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 11:04:03.720 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 11:04:03.720 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 11:04:52.252 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 11:04:52.252 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 11:09:42.746 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 11:09:42.746 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 11:09:42.746 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 11:09:42.762 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 11:09:42.762 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 11:09:42.762 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 11:09:42.762 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 11:10:07.023 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 11:10:07.023 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 12:23:03.421 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 12:23:03.421 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 12:23:03.421 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 12:23:03.435 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 12:23:03.435 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 12:23:03.435 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 12:23:03.435 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 12:23:37.103 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 12:23:37.104 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 12:25:34.922 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 12:25:34.927 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 12:25:34.927 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 12:25:34.943 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 12:25:34.943 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 12:25:34.943 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 12:25:34.943 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 12:26:06.414 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 12:26:06.414 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 12:30:39.995 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 12:30:39.995 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 12:30:39.995 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 12:30:40.011 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 12:30:40.011 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 12:30:40.011 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 12:30:40.011 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 12:31:24.356 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 12:31:24.356 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 12:40:22.809 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 12:40:22.813 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 12:40:22.813 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 12:40:22.825 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 12:40:22.825 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 12:40:22.825 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 12:40:22.825 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 12:40:45.250 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 12:40:45.250 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 12:43:02.522 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 12:43:02.522 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 12:43:02.522 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 12:43:02.537 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 12:43:02.537 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 12:43:02.548 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 12:43:02.548 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 12:43:26.536 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 12:43:26.537 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 12:48:58.609 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 12:48:58.609 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 12:48:58.609 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 12:48:58.622 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 12:48:58.622 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 12:48:58.630 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 12:48:58.630 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 12:50:02.840 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 12:50:02.840 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 12:58:35.443 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 12:58:35.452 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 12:58:35.452 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 12:58:35.459 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 12:58:35.459 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 12:58:35.459 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 12:58:35.459 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 12:58:42.619 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 12:58:42.621 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 12:58:50.392 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 12:58:50.409 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 12:58:50.409 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 12:58:50.409 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 12:58:50.409 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 12:58:50.409 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 12:58:50.409 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 12:58:57.475 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 12:58:57.475 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 12:59:17.216 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 12:59:17.232 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 12:59:17.232 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 12:59:17.248 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 12:59:17.248 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 12:59:17.248 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 12:59:17.248 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 13:00:00.826 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 13:00:00.826 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 13:01:27.279 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 13:01:27.279 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 13:01:27.279 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 13:01:27.296 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 13:01:27.296 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 13:01:27.296 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 13:01:27.296 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 13:02:11.243 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 13:02:11.243 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 13:05:06.256 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 13:05:06.256 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 13:05:06.256 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 13:05:06.276 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 13:05:06.276 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 13:05:06.276 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 13:05:06.276 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 13:05:51.680 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 13:05:51.680 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 13:15:26.131 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 13:15:26.131 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 13:15:26.131 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 13:15:26.131 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 13:15:26.131 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 13:15:26.147 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 13:15:26.147 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 13:16:15.369 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 13:16:15.385 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 14:35:12.424 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 14:35:12.424 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 14:35:12.424 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 14:35:12.440 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 14:35:12.440 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 14:35:12.440 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 14:35:12.440 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 14:36:05.360 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 14:36:05.360 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 14:46:04.163 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 14:46:04.169 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 14:46:04.169 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 14:46:04.182 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 14:46:04.187 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 14:46:04.187 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 14:46:04.187 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 14:46:33.143 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 14:46:33.143 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 14:51:58.890 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 14:51:58.907 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 14:51:58.907 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 14:51:58.923 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 14:51:58.923 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 14:51:58.923 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 14:51:58.923 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 14:52:24.514 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 14:52:24.514 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 14:54:45.910 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 14:54:45.914 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 14:54:45.915 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 14:54:45.932 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 14:54:45.932 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 14:54:45.932 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 14:54:45.933 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 14:55:17.953 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 14:55:17.953 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 15:01:12.865 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 15:01:12.865 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 15:01:12.865 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 15:01:12.882 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 15:01:12.882 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 15:01:12.882 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 15:01:12.882 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 15:01:43.171 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 15:01:43.171 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 15:02:49.303 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 15:02:49.308 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 15:02:49.308 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 15:02:49.325 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 15:02:49.325 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 15:02:49.325 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 15:02:49.325 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 15:03:52.745 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 15:03:52.745 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 15:06:05.527 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 15:06:05.539 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 15:06:05.539 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 15:06:05.560 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 15:06:05.560 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 15:06:05.560 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 15:06:05.560 [main] log4jBaseClass - URL will be accessed via LDAP
+[INFO ] 2026-01-23 15:06:12.441 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 15:06:12.442 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 15:06:44.604 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 15:06:44.604 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 15:06:44.604 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 15:06:44.619 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 15:06:44.619 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 15:06:44.619 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 15:06:44.619 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 15:07:45.525 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 15:07:45.525 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 15:15:12.171 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 15:15:12.177 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 15:15:12.177 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 15:15:12.191 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 15:15:12.191 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 15:15:12.191 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 15:15:12.191 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 15:16:03.780 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 15:16:03.780 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 15:21:23.835 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 15:21:23.842 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 15:21:23.842 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 15:21:23.860 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 15:21:23.860 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 15:21:23.860 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 15:21:23.862 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 15:22:16.459 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 15:22:16.459 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 15:27:46.088 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 15:27:46.093 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 15:27:46.094 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 15:27:46.110 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 15:27:46.114 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 15:27:46.114 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 15:27:46.114 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 15:29:15.902 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 15:29:15.902 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 15:42:14.075 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 15:42:14.083 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 15:42:14.083 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 15:42:14.107 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 15:42:14.107 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 15:42:14.107 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 15:42:14.107 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 15:43:04.423 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 15:43:04.423 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 15:44:24.936 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 15:44:24.946 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 15:44:24.946 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 15:44:24.955 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 15:44:24.955 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 15:44:24.955 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 15:44:24.955 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 15:44:52.658 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 15:44:52.660 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 15:46:06.336 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 15:46:06.336 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 15:46:06.336 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 15:46:06.352 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 15:46:06.352 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 15:46:06.352 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 15:46:06.352 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 15:46:28.523 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 15:46:28.525 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 15:50:40.204 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 15:50:40.208 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 15:50:40.208 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 15:50:40.227 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 15:50:40.227 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 15:50:40.227 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 15:50:40.227 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 15:51:37.151 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 15:51:37.151 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 15:58:26.181 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 15:58:26.186 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 15:58:26.186 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 15:58:26.200 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 15:58:26.200 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 15:58:26.200 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 15:58:26.200 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 15:58:48.802 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 15:58:48.802 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 16:02:02.968 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 16:02:02.972 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 16:02:02.972 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 16:02:02.990 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 16:02:02.990 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 16:02:02.990 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 16:02:02.990 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 16:02:25.431 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 16:02:25.431 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 16:08:45.967 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 16:08:45.976 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 16:08:45.976 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 16:08:45.989 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 16:08:45.989 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 16:08:45.991 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 16:08:45.991 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 16:09:41.154 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 16:09:41.154 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 16:10:41.988 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 16:10:41.988 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 16:10:41.988 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 16:10:42.004 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 16:10:42.004 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 16:10:42.004 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 16:10:42.004 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 16:12:09.743 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 16:12:09.744 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 16:15:54.639 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 16:15:54.639 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 16:15:54.639 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 16:15:54.655 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 16:15:54.655 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 16:15:54.655 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 16:15:54.655 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 16:16:58.991 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 16:16:58.991 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 16:36:28.163 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 16:36:28.163 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 16:36:28.163 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 16:36:28.179 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 16:36:28.179 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 16:36:28.179 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 16:36:28.179 [main] log4jBaseClass - URL will be accessed via LDAP
+[INFO ] 2026-01-23 16:37:36.641 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 17:22:04.973 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 17:22:04.975 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 17:22:04.975 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 17:22:04.995 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 17:22:04.995 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 17:22:04.995 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 17:22:04.995 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 17:22:50.068 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 17:22:50.068 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 18:16:08.268 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 18:16:08.284 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 18:16:08.284 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 18:16:08.299 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 18:16:08.299 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 18:16:08.299 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 18:16:08.299 [main] log4jBaseClass - URL will be accessed via LDAP
+[INFO ] 2026-01-23 18:18:05.247 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 18:18:05.252 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 18:18:05.252 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 18:18:05.269 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 18:18:05.269 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 18:18:05.269 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 18:18:05.269 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 18:18:13.292 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 18:18:13.292 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 18:18:39.926 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 18:18:39.938 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 18:18:39.938 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 18:18:39.942 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 18:18:39.942 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 18:18:39.942 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 18:18:39.942 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 18:18:47.106 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 18:18:47.107 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 18:21:22.010 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 18:21:22.015 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 18:21:22.015 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 18:21:22.026 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 18:21:22.026 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 18:21:22.026 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 18:21:22.026 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 18:22:00.984 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 18:22:00.988 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 18:23:00.213 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 18:23:00.217 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 18:23:00.217 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 18:23:00.231 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 18:23:00.231 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 18:23:00.231 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 18:23:00.231 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 18:23:51.889 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 18:23:51.889 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 18:26:56.578 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 18:26:56.593 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 18:26:56.593 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 18:26:56.611 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 18:26:56.611 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 18:26:56.616 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 18:26:56.616 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 18:27:43.892 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 18:27:43.892 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-01-23 18:31:35.983 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 18:31:35.985 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Valaidate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-01-23 18:31:35.985 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-01-23 18:31:36.012 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 18:31:36.012 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-01-23 18:31:36.012 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-01-23 18:31:36.012 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-01-23 18:32:23.133 [main] log4jBaseClass - Test scenario Failed for:Valaidate Creation Of the Product
+[INFO ] 2026-01-23 18:32:23.133 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
