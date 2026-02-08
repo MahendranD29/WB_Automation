@@ -75,11 +75,11 @@ jobs:
           subject: Automation Execution Result
           to: maahi082000@gmail.com
           from: GitHub Actions
+          attachments: |
+            test-output/ExtentReports/ExtentReport.html
           body: |
             Automation execution completed.
             
             Repository: ${{ github.repository }}
             Branch: ${{ github.ref_name }}
             Status: ${{ job.status }}
-            
-            Please download report from GitHub Actions.
