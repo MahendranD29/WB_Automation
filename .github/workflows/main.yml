@@ -2,13 +2,13 @@ name: Selenium Automation Pipeline
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
 
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
 
   schedule:
-    - cron: '30 3 * * *'   # Daily 9 AM IST
+    - cron: '30 3 * * *'
 
   workflow_dispatch:
     inputs:
@@ -20,6 +20,9 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
 
       # Checkout Code
@@ -30,10 +33,10 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
-          distribution: 'temurin'
-          java-version: '17'
+          distribution: temurin
+          java-version: 17
 
-      # Cache Maven Dependencies
+      # Cache Maven
       - name: Cache Maven
         uses: actions/cache@v4
         with:
@@ -44,24 +47,28 @@ jobs:
       - name: Build Project
         run: mvn clean install -DskipTests
 
-      # Execute Automation Tests
+      # Run Automation Tests
       - name: Run Automation Tests
         run: |
           if [ -z "${{ github.event.inputs.tags }}" ]; then
-            echo "Running FULL test suite"
             mvn test -Dheadless=true
           else
-            echo "Running tests with tags: ${{ github.event.inputs.tags }}"
             mvn test -Dheadless=true -Dcucumber.filter.tags="${{ github.event.inputs.tags }}"
           fi
 
-      # Upload Extent Report
+      # ZIP Report (Important)
+      - name: Zip Extent Report
+        if: always()
+        run: |
+          zip -r ExtentReport.zip test-output/ExtentReports || echo "No Report Found"
+
+      # Upload Artifact
       - name: Upload Extent Report
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: Extent-Report
-          path: test-output/ExtentReports/ExtentReport.html
+          path: ExtentReport.zip
 
       # Send Email Notification
       - name: Send Email Notification
@@ -72,18 +79,21 @@ jobs:
           server_port: 465
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
-          subject: Automation Execution Result
+          subject: Automation Execution Result - ${{ job.status }}
           to: maahi082000@gmail.com
-          from: GitHub Actions
-          attachments: |
-            test-output/ExtentReports/ExtentReport.html
+          from: GitHub Automation
+          attachments: ExtentReport.zip
           body: |
             Automation execution completed.
-            
+
             Repository: ${{ github.repository }}
             Branch: ${{ github.ref_name }}
             Status: ${{ job.status }}
-      # ✅ ADD THIS LAST
+
+            Live Report:
+            https://${{ github.repository_owner }}.github.io/WB_Automation/ExtentReport.html
+
+      # Deploy Report to GitHub Pages
       - name: Deploy Report to GitHub Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v3
