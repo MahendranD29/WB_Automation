@@ -61,7 +61,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Extent-Report
-          path: test-output/ExtentReport.html
+          path: test-output/ExtentReports/ExtentReport.html
 
       # Send Email Notification
       - name: Send Email Notification
