@@ -70,7 +70,7 @@ public class QAStepDef {
 
 
     @And("User select {string} details and Information details")
-    public void userSelectDetailsAndInformationDetails(String warehouse) throws InterruptedException {
+    public void userSelectDetailsAndInformationDetails(String warehouse) throws Exception {
         QAPage = new QAPage(getDriver());
         Report.info("******STEPS STARTED: User select {string} details and Information details****** ");
         QAPage.fillWarehouseInfo(warehouse);
@@ -104,27 +104,29 @@ public class QAStepDef {
         Report.info("******STEPS ENDED: User Field as {string} and add Values {string}, {string},{string} details****** ");
     }
 
-    @And("User add {string} in Additional Information details")
-    public void userAddInAdditionalInformationDetails(String vendor) throws Exception {
+    @And("User add Additional Information details")
+    public void userAddInAdditionalInformationDetails() throws Exception {
         QAPage = new QAPage(getDriver());
         Report.info("******STEPS STARTED:User add {string} in Additional Information details****** ");
-        QAPage.fillAdditionalInfo(vendor);
+        QAPage.fillAdditionalInfo();
         Report.info("******STEPS ENDED: User add {string} in Additional Information details****** ");
     }
 
+    @When("User clicks on {string} and fill the details")
     @When("User cliks on {string} and fill the detaitais")
     public void userCliksOnAndFillTheDetaitais(String action) throws Exception {
         QAPage = new QAPage(getDriver());
-        Report.info("******STEPS STARTED:User cliks on {string} and fill the detaitais****** ");
+        Report.info("******STEPS STARTED: User clicks on action and fill the details****** ");
         QAPage.actions(action);
-        Report.info("******STEPS ENDED: User cliks on {string} and fill the detaitais****** ");
+        Report.info("******STEPS ENDED: User clicks on action and fill the details****** ");
     }
+    @When("User fill the update details")
     @When("User fill the update detaitais")
     public void userFillTheUpdateDetaitais() throws Exception {
         QAPage = new QAPage(getDriver());
-        Report.info("******STEPS STARTED: User fill the update detaitais****** ");
+        Report.info("******STEPS STARTED: User fill the update details****** ");
         QAPage.updateFiled();
-        Report.info("******STEPS ENDED: User fill the update detaitais****** ");
+        Report.info("******STEPS ENDED: User fill the update details****** ");
     }
 
 
@@ -198,12 +200,13 @@ public class QAStepDef {
         Report.info("******STEPS ENDED: User validated deleted Item****** ");
     }
 
+    @When("User Restore the deleted item")
     @When("User Restore the deteted item")
     public void userRestoreTheDetetedItem() {
         QAPage = new QAPage(getDriver());
-        Report.info("******STEPS STARTED: User Restore the deteted item****** ");
+        Report.info("******STEPS STARTED: User Restore the deleted item****** ");
         QAPage.restoreItem();
-        Report.info("******STEPS ENDED: User Restore the deteted item****** ");
+        Report.info("******STEPS ENDED: User Restore the deleted item****** ");
     }
 
 
@@ -289,20 +292,22 @@ public class QAStepDef {
     }
 
 
+    @When("User clicks on Edit Button")
     @When("User cliks on Edit Button")
     public void userCliksOnEditButton() {
         QAPage = new QAPage(getDriver());
-        Report.info("******STEPS STARTED: User cliks on Edit Button****** ");
+        Report.info("******STEPS STARTED: User clicks on Edit Button****** ");
         QAPage.edit_Unit();
-        Report.info("******STEPS ENDED: User cliks on Edit Button****** ");
+        Report.info("******STEPS ENDED: User clicks on Edit Button****** ");
     }
 
+    @When("User clicks on Delete Button")
     @When("User cliks on Delete Button")
     public void userCliksOnDeleteButton() {
         QAPage = new QAPage(getDriver());
-        Report.info("******STEPS STARTED: User cliks on Delete Button****** ");
+        Report.info("******STEPS STARTED: User clicks on Delete Button****** ");
         QAPage.delete_Unit();
-        Report.info("******STEPS ENDED: User cliks on Delete Button****** ");
+        Report.info("******STEPS ENDED: User clicks on Delete Button****** ");
     }
 
     @Then("User validated deleted Unit Validation")
@@ -311,5 +316,13 @@ public class QAStepDef {
         Report.info("******STEPS STARTED: User validated deleted Unit Validation****** ");
         QAPage.delete_Unit();
         Report.info("******STEPS ENDED: User validated deleted Unit Validation****** ");
+    }
+
+    @Then("User Validate the Item in Full validation")
+    public void userValidateTheItemInFullValidation() throws Exception {
+        QAPage = new QAPage(getDriver());
+        Report.info("******STEPS STARTED: User Validate the Item in Full validation****** ");
+        QAPage.validateItemInFullValidation();
+        Report.info("******STEPS ENDED: User Validate the Item in Full validation****** ");
     }
 }

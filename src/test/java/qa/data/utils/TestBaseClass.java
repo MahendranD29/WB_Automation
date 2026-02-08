@@ -119,34 +119,87 @@ public abstract class TestBaseClass implements DriverSource {
             } catch (MalformedURLException var6) {
                 var6.printStackTrace();
             }
-        } else if (Browser.equalsIgnoreCase("LocalChrome")) {
+        }
+//        else if (Browser.equalsIgnoreCase("LocalChrome")) {
+//            System.out.println("Executing on LOCAL CHROME");
+//            ChromeOptions chromeOptions;
+//            LoggingPreferences logPrefs;
+//            if (tlDriver != null) {
+//               // WebDriverManager.chromedriver().setup();
+//                chromeOptions = new ChromeOptions();
+//                logPrefs = new LoggingPreferences();
+//                logPrefs.enable(LogType.BROWSER, Level.ALL);
+//                chromeOptions.setCapability(chromeOptions.LOGGING_PREFS, logPrefs);
+//                setDownloadPref(chromeOptions);
+//                chromeOptions.addArguments("--disable-search-engine-choice-screen");
+//                chromeOptions.addArguments("window-size=1920,1080");
+//                chromeOptions.addArguments("--ignore-certificate-errors");
+//                chromeOptions.addArguments("--start-maximized");
+//                WebDriverManager.chromedriver().clearDriverCache().setup();
+//                tlDriver.set(new ChromeDriver(chromeOptions));
+//                browserName = chromeOptions.getBrowserName();
+//                browserVersion = chromeOptions.getBrowserVersion();
+//                getDriver().manage().window().maximize();
+//                tlDriver.get().manage().deleteAllCookies();
+//                tlDriver.get().manage().timeouts().pageLoadTimeout(Duration.ofSeconds(Long.parseLong(prop.getProperty("EXPLICT_WAIT_TIME"))));
+//                tlDriver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(Long.parseLong(prop.getProperty("IMPLICT_WAIT_TIME"))));
+//                System.out.println("URL is:" + URL);
+//                tlDriver.get().get(URL);
+//
+//            }
+//
+//        }
+
+        else if (Browser.equalsIgnoreCase("LocalChrome")) {
+
             System.out.println("Executing on LOCAL CHROME");
-            ChromeOptions chromeOptions;
-            LoggingPreferences logPrefs;
+
             if (tlDriver != null) {
-               // WebDriverManager.chromedriver().setup();
-                chromeOptions = new ChromeOptions();
-                logPrefs = new LoggingPreferences();
+
+                ChromeOptions chromeOptions = new ChromeOptions();
+
+                LoggingPreferences logPrefs = new LoggingPreferences();
                 logPrefs.enable(LogType.BROWSER, Level.ALL);
                 chromeOptions.setCapability(chromeOptions.LOGGING_PREFS, logPrefs);
+
                 setDownloadPref(chromeOptions);
+
                 chromeOptions.addArguments("--disable-search-engine-choice-screen");
                 chromeOptions.addArguments("window-size=1920,1080");
                 chromeOptions.addArguments("--ignore-certificate-errors");
                 chromeOptions.addArguments("--start-maximized");
+
+                // ⭐ Headless Support (Cloud Execution)
+                String headless = prop.getProperty("headless");
+
+                if (headless != null && headless.equalsIgnoreCase("true")) {
+
+                    System.out.println("Running in HEADLESS mode");
+
+                    chromeOptions.addArguments("--headless=new");
+                    chromeOptions.addArguments("--no-sandbox");
+                    chromeOptions.addArguments("--disable-dev-shm-usage");
+                }
+
                 WebDriverManager.chromedriver().clearDriverCache().setup();
+
                 tlDriver.set(new ChromeDriver(chromeOptions));
+
                 browserName = chromeOptions.getBrowserName();
                 browserVersion = chromeOptions.getBrowserVersion();
+
                 getDriver().manage().window().maximize();
                 tlDriver.get().manage().deleteAllCookies();
-                tlDriver.get().manage().timeouts().pageLoadTimeout(Duration.ofSeconds(Long.parseLong(prop.getProperty("EXPLICT_WAIT_TIME"))));
-                tlDriver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(Long.parseLong(prop.getProperty("IMPLICT_WAIT_TIME"))));
+
+                tlDriver.get().manage().timeouts().pageLoadTimeout(
+                        Duration.ofSeconds(Long.parseLong(prop.getProperty("EXPLICT_WAIT_TIME"))));
+
+                tlDriver.get().manage().timeouts().implicitlyWait(
+                        Duration.ofSeconds(Long.parseLong(prop.getProperty("IMPLICT_WAIT_TIME"))));
+
                 System.out.println("URL is:" + URL);
                 tlDriver.get().get(URL);
-
             }
-
         }
     }
 

@@ -11,13 +11,13 @@ import static qa.data.utils.WebPageOperations.*;
 
 public class Dictionary {
     private static Map<String, String> dictionary = new HashMap<String, String>();
-    private static Map<String, String> globalDictionary = new HashMap<String, String>();
+    private static Map<String, Object> globalDictionary = new HashMap<String, Object>();
 
     public static void storeInDictionary(String key,String value)
     {
         dictionary.put(key,value);
     }
-    public static void storeInGlobalDictionary(String key,String value)
+    public static void storeInGlobalDictionary(String key,Object value)
     {
         globalDictionary.put(key,value);
     }
@@ -25,9 +25,10 @@ public class Dictionary {
     {
         return dictionary.get(key);
     }
-    public static String getFromGlobalDictionary(String key)
+    @SuppressWarnings("unchecked")
+    public static <T> T getFromGlobalDictionary(String key)
     {
-        return globalDictionary.get(key);
+        return (T) globalDictionary.get(key);
     }
 
     public static void saveGridPartyUserName(String gridID)
