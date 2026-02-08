@@ -6867,3 +6867,33 @@ Session ID: 98bae2759a5b38097b2c017bae1bf7f4
 [INFO ] 2026-01-28 12:02:01.466 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
 [INFO ] 2026-01-28 12:02:01.466 [main] log4jBaseClass - URL will be accessed via LDAP
 [INFO ] 2026-01-28 12:03:07.227 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-02-08 13:15:48.700 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-02-08 13:15:48.700 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Validate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-02-08 13:15:48.700 [main] log4jBaseClass - ****************************************************************************************
+[ERROR] 2026-02-08 13:15:48.716 [main] log4jBaseClass - Error occured while creating single user performance report. Stack trace:The system cannot find the path specified
+[INFO ] 2026-02-08 13:15:48.716 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-02-08 13:15:48.716 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-02-08 13:15:48.716 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-02-08 13:15:48.732 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-02-08 13:16:36.367 [main] log4jBaseClass - Test scenario Failed for:Validate Creation Of the Product
+[INFO ] 2026-02-08 13:16:36.369 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-02-08 13:19:01.378 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-02-08 13:19:01.391 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Validate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-02-08 13:19:01.391 [main] log4jBaseClass - ****************************************************************************************
+[ERROR] 2026-02-08 13:19:01.396 [main] log4jBaseClass - Error occured while creating single user performance report. Stack trace:The system cannot find the path specified
+[INFO ] 2026-02-08 13:19:01.405 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-02-08 13:19:01.411 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-02-08 13:19:01.413 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-02-08 13:19:01.413 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-02-08 13:20:00.250 [main] log4jBaseClass - Test scenario Failed for:Validate Creation Of the Product
+[INFO ] 2026-02-08 13:20:00.250 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2026-02-08 13:24:39.181 [main] log4jBaseClass - ****************************************************************************************
+[INFO ] 2026-02-08 13:24:39.190 [main] log4jBaseClass - $$$$$$$$$$$$$$$$$$$$$                 Validate Creation Of the Product       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2026-02-08 13:24:39.190 [main] log4jBaseClass - ****************************************************************************************
+[ERROR] 2026-02-08 13:24:39.196 [main] log4jBaseClass - Error occured while creating single user performance report. Stack trace:The system cannot find the path specified
+[INFO ] 2026-02-08 13:24:39.212 [main] log4jBaseClass - URL for test case:https://demo.wakandabooks.com/login
+[INFO ] 2026-02-08 13:24:39.215 [main] log4jBaseClass - Url:https://demo.wakandabooks.com/login
+[INFO ] 2026-02-08 13:24:39.216 [main] log4jBaseClass - Seleniumgridurl:null. Browser:LocalChrome. Version:
+[INFO ] 2026-02-08 13:24:39.216 [main] log4jBaseClass - URL will be accessed via LDAP
+[ERROR] 2026-02-08 13:29:07.106 [main] log4jBaseClass - Test scenario Failed for:Validate Creation Of the Product
+[INFO ] 2026-02-08 13:29:07.106 [main] log4jBaseClass - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX

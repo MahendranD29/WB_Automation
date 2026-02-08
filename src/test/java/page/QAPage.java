@@ -25,7 +25,7 @@ import static cukeTests.web.Hooks.scenario;
 
 public class QAPage extends AppSpecificUtility {
     private static final String COUTRYCODE = "//span[text()='+91']";
-    private static final String COUTRYCODE_BUTTON = "//div[@class='css-ctzjn-control']";
+    private static final String COUTRYCODE_BUTTON = "//div[@class='css-1y9p3vz-control']";
     private static final String USERPHONENUMBER = "//input[@name='phoneNumber']";
     private static final String LOGINBUTTON = "//span[text()='Login']";
     private static final String PASSWORD = "//input[@id='password']";
@@ -776,14 +776,14 @@ public class QAPage extends AppSpecificUtility {
                 avialbeQuantity += openingStockValue;
 
                 Thread.sleep(DELAY_IN_MILLI_SECS);
-                WebElement openingPurchasePrice = container.get(i).findElement(By.xpath(".//input[@placeholder='Enter Opening Purchase Price...']"));
-                if (openingPurchasePrice.getAttribute("value") == null || openingPurchasePrice.getAttribute("value").isEmpty()) {
-                    populateField(openingPurchasePrice, "200");
-                }
-
-                Thread.sleep(DELAY_IN_MILLI_SECS);
-                double pprice = Double.parseDouble(openingPurchasePrice.getAttribute("value"));
-                sumPPxQty += (pprice * openingStockValue);
+//                WebElement openingPurchasePrice = container.get(i).findElement(By.xpath(".//input[@placeholder='Enter Opening Purchase Price...']"));
+//                if (openingPurchasePrice.getAttribute("value") == null || openingPurchasePrice.getAttribute("value").isEmpty()) {
+//                    populateField(openingPurchasePrice, "200");
+//                }
+//
+//                Thread.sleep(DELAY_IN_MILLI_SECS);
+//                double pprice = Double.parseDouble(openingPurchasePrice.getAttribute("value"));
+//                sumPPxQty += (pprice * openingStockValue);
                 WebElement warehouse_Wholesale_Price = container.get(i).findElement(By.xpath(".//input[@placeholder='Enter Wholesale Price here']"));
                 populateField(warehouse_Wholesale_Price, "300");
                 double warehouseWholesalePriceValue = Double.parseDouble(getAttribute(warehouse_Wholesale_Price, "value"));
