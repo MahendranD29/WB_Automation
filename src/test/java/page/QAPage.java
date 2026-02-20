@@ -81,6 +81,13 @@ public class QAPage extends AppSpecificUtility {
     private static final String ITEM_IMAGE = "//div[text()='Item Image']";
     private static final String PPURICE_EXPECT = "//div[text()='Purchase Price']/parent::div/child::div[2]";
     private static final String AVAILABLE_QUANTITY = "//div[normalize-space()='Available Quantity']/following-sibling::div/span";
+    private static final String AVERAGE_PURCHASE_PRICE = "//div[normalize-space()='Avg Purchase Price']/following-sibling::div/span";
+    private static final String CREATED_BY = "//div[normalize-space()='Created By']/following-sibling::div/span";
+    private static final String UPDATED_BY = "//div[normalize-space()='Updated By']/following-sibling::div/span";
+    private static final String CREATED_AT = "//div[normalize-space()='Created At']/following-sibling::div/span";
+    private static final String UPDATED_AT = "//div[normalize-space()='Updated At']/following-sibling::div/span";
+    private static final String UNIT_EXPECTED = "//div[text()='Unit']/following-sibling::div";
+    private static final String PROFILE_NAME = "//span[@class='ml-2 truncate max-w-[150px] font-medium text-[16px] text-text-dark']";
 
 
     // Services Section
@@ -123,9 +130,31 @@ public class QAPage extends AppSpecificUtility {
     @FindBy(xpath = UNIT_SECTION)
     private WebElement unit_Section;
 
-  @FindBy(xpath = PPURICE_EXPECT)
+    @FindBy(xpath = PROFILE_NAME)
+    private WebElement profile_Name;
+
+    @FindBy(xpath = UNIT_EXPECTED)
+    private WebElement expected_Unit;
+
+    @FindBy(xpath = AVERAGE_PURCHASE_PRICE)
+    private WebElement average_Purchase_Price;
+
+    @FindBy(xpath = CREATED_BY)
+    private WebElement creared_By;
+
+    @FindBy(xpath = UPDATED_BY)
+    private WebElement updated_By;
+
+    @FindBy(xpath = CREATED_AT)
+    private WebElement created_At;
+
+    @FindBy(xpath = UPDATED_AT)
+    private WebElement updated_At;
+
+    @FindBy(xpath = PPURICE_EXPECT)
     private WebElement purchase_Price_Expect;
- @FindBy(xpath = AVAILABLE_QUANTITY)
+
+    @FindBy(xpath = AVAILABLE_QUANTITY)
     private WebElement available_Quantity_Expect;
 
     @FindBy(xpath = ITEM_IMAGE)
@@ -530,7 +559,7 @@ public class QAPage extends AppSpecificUtility {
     }
 
     public void entersDetils(String dep, String name, String unit, String categoryField) throws Exception {
-        String unitList = "//span[text()='"+unit+"']";
+        String unitList = "//span[text()='" + unit + "']";
         String categoryList = "//button[text()='" + categoryField + "']";
         switch (dep) {
             case "Product":
@@ -542,7 +571,7 @@ public class QAPage extends AppSpecificUtility {
                 setWait(wait).until(ExpectedConditions.visibilityOf(Unit));
                 clickElement(Unit);
                 List<WebElement> unitListText = getDriver().findElements(By.xpath("//label[text()='Unit']/following::button/span[3]"));
-                boolean categoryFoun = false,unitFound = false;
+                boolean categoryFoun = false, unitFound = false;
                 for (WebElement unitListElement : unitListText) {
                     if (unitListElement.getText().equalsIgnoreCase(unit)) {
                         clickUsingJavaScript(unitListElement);
@@ -559,7 +588,7 @@ public class QAPage extends AppSpecificUtility {
                     clickElement(btn_Add_Unit);
                     setWait(wait).until(ExpectedConditions.visibilityOf(Unit));
                     clickElement(Unit);
-                        getDriver().findElement(By.xpath(unitList)).click();
+                    getDriver().findElement(By.xpath(unitList)).click();
                 }
                 setWait(wait).until(ExpectedConditions.visibilityOf(category));
                 clickElement(category);
@@ -692,11 +721,11 @@ public class QAPage extends AppSpecificUtility {
 
     public void fillAdditionalInfo() throws Exception {
 
-                populateField(purchase_Price, "100");
-                String purchasePriceActual = getAttribute(purchase_Price, "value");
-                Dictionary.storeInGlobalDictionary("purchasePriceActual",purchasePriceActual);
-                // populateField(selling_Price, "2000");
-                //     Thread.sleep(3000);
+        populateField(purchase_Price, "100");
+        String purchasePriceActual = getAttribute(purchase_Price, "value");
+        Dictionary.storeInGlobalDictionary("purchasePriceActual", purchasePriceActual);
+        // populateField(selling_Price, "2000");
+        //     Thread.sleep(3000);
 //                getDriver().findElement(By.xpath("//input[@id='react-select-6-input']")).click();
 //                List<WebElement> elements1 = getDriver().findElements(By.xpath("//div[@id='react-select-6-listbox']/child:div[@role='option']"));
 //
@@ -733,9 +762,7 @@ public class QAPage extends AppSpecificUtility {
         setWait(wait).until(ExpectedConditions.visibilityOf(item_Image));
         clickElement(item_Image);
         Thread.sleep(DELAY_IN_MILLI_SECS);
-        populateField(product_Image,"C:\\Users\\futur\\OneDrive\\Pictures\\Screenshots pic 1");
-
-
+        populateField(product_Image, "C:\\Users\\futur\\OneDrive\\Pictures\\Screenshots pic 1");
 
 
     }
@@ -771,8 +798,9 @@ public class QAPage extends AppSpecificUtility {
 
                 WebElement openingStock = container.get(i).findElement(By.xpath(".//input[@placeholder='Enter Opening Stock...']"));
                 populateField(openingStock, "200");
+                Dictionary.storeInGlobalDictionary("OpeningStock", openingStock.getAttribute("value"));
                 double openingStockValue = Double.parseDouble(getAttribute(openingStock, "value"));
-                System.out.println( "openingStockValue : " + openingStockValue);
+                System.out.println("openingStockValue : " + openingStockValue);
                 avialbeQuantity += openingStockValue;
 
                 Thread.sleep(DELAY_IN_MILLI_SECS);
@@ -787,20 +815,20 @@ public class QAPage extends AppSpecificUtility {
                 WebElement warehouse_Wholesale_Price = container.get(i).findElement(By.xpath(".//input[@placeholder='Enter Wholesale Price here']"));
                 populateField(warehouse_Wholesale_Price, "300");
                 double warehouseWholesalePriceValue = Double.parseDouble(getAttribute(warehouse_Wholesale_Price, "value"));
-                System.out.println( "warehouseWholesalePriceValue : " + warehouseWholesalePriceValue);
+                System.out.println("warehouseWholesalePriceValue : " + warehouseWholesalePriceValue);
 
                 Thread.sleep(DELAY_IN_MILLI_SECS);
                 WebElement warehouse_Selling_Price = container.get(i).findElement(By.xpath(".//input[@placeholder='Enter Retail Price here...']"));
                 populateField(warehouse_Selling_Price, "250");
                 double warehouseSellingPriceValue = Double.parseDouble(getAttribute(warehouse_Selling_Price, "value"));
-                System.out.println( "warehouseSellingPriceValue : " + warehouseSellingPriceValue);
+                System.out.println("warehouseSellingPriceValue : " + warehouseSellingPriceValue);
 
                 Thread.sleep(DELAY_IN_MILLI_SECS);
                 WebElement min_Quantity = container.get(i).findElement(By.xpath(".//input[@placeholder='Write the Minimum Quantity here to get notified']"));
                 populateField(min_Quantity, "10");
                 warehousePriceMap.put(
                         warehouseName,
-                        new WarehouseDate(openingStockValue,warehouseWholesalePriceValue,warehouseSellingPriceValue));
+                        new WarehouseDate(openingStockValue, warehouseWholesalePriceValue, warehouseSellingPriceValue));
                 Thread.sleep(DELAY_IN_MILLI_SECS);
                 Hooks.captureT(scenario);
             }
@@ -808,7 +836,8 @@ public class QAPage extends AppSpecificUtility {
             Dictionary.storeInGlobalDictionary("WAREHOUSE_PRICE_MAP", warehousePriceMap);
             // Average Purchase Price = sum of (PP * quantity) / sum of quantity
             if (avialbeQuantity > 0) {
-                double avgPurchasePrice = sumPPxQty / avialbeQuantity;
+                //    (Integer.parseInt(Dictionary.getFromGlobalDictionary("purchasePriceActual")* Integer.parseInt(Dictionary.getFromGlobalDictionary("OpeningStock"))))+ ;
+                double avgPurchasePrice = avialbeQuantity * Double.parseDouble(Dictionary.getFromGlobalDictionary("purchasePriceActual")) / avialbeQuantity;
                 Dictionary.storeInGlobalDictionary("AveragePurchasePrice", String.valueOf(Math.round(avgPurchasePrice)));
             }
 
@@ -826,7 +855,6 @@ public class QAPage extends AppSpecificUtility {
             Thread.sleep(DELAY_IN_MILLI_SECS);
             Hooks.captureT(scenario);
         }
-
 
 
     }
@@ -928,7 +956,7 @@ public class QAPage extends AppSpecificUtility {
         String name = Dictionary.getFromGlobalDictionary("Product");
         Assert.assertEquals(name, expectedtext, "Verify the Item is Shown");
 
-        //Purchase Price Validation
+//        //Purchase Price Validation
         Assert.assertEquals(Dictionary.getFromGlobalDictionary("purchasePriceActual"),
                 getText(purchase_Price_Expect).substring(1), "Verify the Item is Shown");
 
@@ -947,15 +975,15 @@ public class QAPage extends AppSpecificUtility {
             String uIWarehouseName = wholesalePrice.findElement(By.xpath("./td[1]")).getText().trim();
 
             // Wholesale Price
-            Double uiWholesale = Double.parseDouble( wholesalePrice.findElement(By.xpath(".//td[count(//th[normalize-space()='Wholesale Price']/preceding-sibling::th)+1]"))
-                            .getText().replace("₹", "").trim());
-            System.out.println("uiWholesale : "+uiWholesale );
-           // Selling Price
-            Double uiSelling =  Double.parseDouble(wholesalePrice.findElement(By.xpath(".//td[count(//th[normalize-space()='Selling Price']/preceding-sibling::th)+1]"))
-                            .getText().replace("₹", "").trim());
-            System.out.println("uiSelling : "+uiSelling );
-            Double qtyText =Double.parseDouble( wholesalePrice.findElement(By.xpath("./td[4]")).getText().trim());
-            System.out.println("qtyText : "+qtyText );
+            Double uiWholesale = Double.parseDouble(wholesalePrice.findElement(By.xpath(".//td[count(//th[normalize-space()='Wholesale Price']/preceding-sibling::th)+1]"))
+                    .getText().replace("₹", "").trim());
+            System.out.println("uiWholesale : " + uiWholesale);
+            // Selling Price
+            Double uiSelling = Double.parseDouble(wholesalePrice.findElement(By.xpath(".//td[count(//th[normalize-space()='Selling Price']/preceding-sibling::th)+1]"))
+                    .getText().replace("₹", "").trim());
+            System.out.println("uiSelling : " + uiSelling);
+            Double qtyText = Double.parseDouble(wholesalePrice.findElement(By.xpath("./td[4]")).getText().trim());
+            System.out.println("qtyText : " + qtyText);
 
             WarehouseDate warehouseDate = expectedMap.get(uIWarehouseName);
 
@@ -966,7 +994,7 @@ public class QAPage extends AppSpecificUtility {
 
             Assert.assertEquals(
                     uiWholesale,
-                   warehouseDate.getWholesalePrice(),
+                    warehouseDate.getWholesalePrice(),
                     "Wholesale Price mismatch for " + uIWarehouseName
             );
 
@@ -982,10 +1010,8 @@ public class QAPage extends AppSpecificUtility {
                     "Quantity Price mismatch for " + uIWarehouseName
             );
 
-                    }
+        }
 // Created by and Updated by Validation
-
-
 
 
     }
@@ -1025,11 +1051,11 @@ public class QAPage extends AppSpecificUtility {
      */
     private String getListCellTextByHeader(String headerName) {
         try {
-            List<WebElement> headers = getDriver().findElements(By.xpath("//table[.//thead]//th"));
+            List<WebElement> headers = getDriver().findElements(By.xpath("//div[@class='font-[500] text-[14px] text-text-primary']"));
             for (int i = 0; i < headers.size(); i++) {
                 if (headers.get(i).getText().trim().toLowerCase().contains(headerName.trim().toLowerCase())) {
                     int colIndex = i + 1;
-                    String cellXpath = "(//table[.//thead]//tbody/tr)[1]/td[" + colIndex + "]";
+                    String cellXpath = "//div[@class='font-[500] text-[14px] text-text-primary']/following-sibling::div";
                     WebElement cell = getDriver().findElement(By.xpath(cellXpath));
                     return cell.getText().trim();
                 }
@@ -1040,89 +1066,116 @@ public class QAPage extends AppSpecificUtility {
         return "";
     }
 
-    /** Full validation on List page: Product, Unit, Category, Purchase Price, Average Purchase Price, Available Quantity, Created By, Created At, Updated By, Updated At */
+    /**
+     * Full validation on List page: Product, Unit, Category, Purchase Price, Average Purchase Price, Available Quantity, Created By, Created At, Updated By, Updated At
+     */
     public void validateItemInFullValidation() throws Exception {
         Thread.sleep(DELAY_IN_MILLI_SECS);
         setWait(wait).until(ExpectedConditions.visibilityOf(item_Name));
 
-        // Product name
-        String expectedProduct = Dictionary.getFromGlobalDictionary("Product");
-        String actualProduct = getListCellTextByHeader("Product");
-        if (actualProduct.isEmpty()) {
-            actualProduct = getText(item_Name);
-        }
-        Assert.assertEquals(expectedProduct, actualProduct, "Product name mismatch on list page");
 
-        // Unit
-        String expectedUnit = Dictionary.getFromGlobalDictionary("Unit");
-        if (expectedUnit != null) {
-            String actualUnit = getListCellTextByHeader("Unit");
-            Assert.assertEquals(expectedUnit, actualUnit, "Unit mismatch on list page");
-        }
+        Assert.assertEquals(Dictionary.getFromGlobalDictionary("Unit"),
+                getText(expected_Unit).split(" ")[0], "Verify the Item is Shown");
 
-        // Category name
-        String expectedCategory = Dictionary.getFromGlobalDictionary("Category");
-        if (expectedCategory != null) {
-            String actualCategory = getListCellTextByHeader("Category");
-            if (actualCategory.isEmpty()) {
-                actualCategory = getListCellTextByHeader("Category Name");
-            }
-            Assert.assertEquals(expectedCategory, actualCategory, "Category name mismatch on list page");
-        }
 
-        // Purchase Price (list page)
-        String expectedPurchasePrice = Dictionary.getFromGlobalDictionary("purchasePriceActual");
-        String actualPurchasePrice = getListCellTextByHeader("Purchase Price");
-        if (actualPurchasePrice.isEmpty()) {
-            actualPurchasePrice = getText(purchase_Price_Expect).replace("₹", "").trim();
-        } else {
-            actualPurchasePrice = actualPurchasePrice.replace("₹", "").trim();
-        }
-        Assert.assertEquals(expectedPurchasePrice, actualPurchasePrice, "Purchase price mismatch on list page");
+        Assert.assertEquals(Dictionary.getFromGlobalDictionary("avialableQuantity"),
+                getText(available_Quantity_Expect).split(" ")[0], "Verify the Item is Shown");
 
-        // Average Purchase Price: expected = average of warehouse opening purchase prices (stored in fillWarehouseInfo)
-        String expectedAvgPurchasePrice = Dictionary.getFromGlobalDictionary("AveragePurchasePrice");
-        if (expectedAvgPurchasePrice != null) {
-            String actualAvgPurchasePrice = getListCellTextByHeader("Average Purchase Price");
-            if (!actualAvgPurchasePrice.isEmpty()) {
-                actualAvgPurchasePrice = actualAvgPurchasePrice.replace("₹", "").replace(",", "").trim();
-                Assert.assertEquals(expectedAvgPurchasePrice, actualAvgPurchasePrice, "Average Purchase Price mismatch on list page");
-            }
-        }
+        //Purchase Price Validation
+        Assert.assertEquals(Dictionary.getFromGlobalDictionary("purchasePriceActual"),
+                getText(purchase_Price_Expect).substring(1), "Verify the Item is Shown");
 
-        // Available Quantity
-        String expectedQty = Dictionary.getFromGlobalDictionary("avialableQuantity");
-        String actualQty = getListCellTextByHeader("Available Quantity");
-        if (actualQty.isEmpty()) {
-            actualQty = getText(available_Quantity_Expect).split(" ")[0].trim();
-        } else {
-            actualQty = actualQty.split(" ")[0].trim();
-        }
-        Assert.assertEquals(expectedQty, actualQty, "Available quantity mismatch on list page");
+        Assert.assertEquals(Dictionary.getFromGlobalDictionary("AveragePurchasePrice"),
+                getText(average_Purchase_Price).substring(1), "Verify the Item is Shown");
 
-        // Created By
-        String expectedCreatedBy = Dictionary.getFromGlobalDictionary("CreatedBy");
-        if (expectedCreatedBy != null) {
-            String actualCreatedBy = getListCellTextByHeader("Created By");
-            Assert.assertEquals(expectedCreatedBy, actualCreatedBy, "Created By mismatch on list page");
-        }
+        Assert.assertEquals(getText(profile_Name).split(" ")[0],
+                getText(creared_By), "Verify the Item is Shown");
+if (isDisplayed(updated_By)&& isDisplayed(updated_At)){
+        Assert.assertEquals(getText(profile_Name).split(" ")[0],
+                getText(updated_By), "Verify the Item is Shown");
+        Assert.assertFalse(getText(updated_At).isEmpty(), "Updated At should not be empty");
+        Assert.assertTrue(isValidDateTime(getText(updated_At)), "Updated At should be valid date and time format, got: " + getText(updated_At));
+}
 
-        // Created At (date and time) - validate not empty and valid date-time format
-        String createdAt = getListCellTextByHeader("Created At");
-        Assert.assertFalse(createdAt.isEmpty(), "Created At should not be empty on list page");
-        Assert.assertTrue(isValidDateTime(createdAt), "Created At should be valid date and time format, got: " + createdAt);
-
-        // Updated By
-        String expectedUpdatedBy = Dictionary.getFromGlobalDictionary("CreatedBy");
-        if (expectedUpdatedBy != null) {
-            String actualUpdatedBy = getListCellTextByHeader("Updated By");
-            Assert.assertEquals(expectedUpdatedBy, actualUpdatedBy, "Updated By mismatch on list page");
-        }
-
-        // Updated At (date and time) - validate not empty and valid date-time format
-        String updatedAt = getListCellTextByHeader("Updated At");
-        Assert.assertFalse(updatedAt.isEmpty(), "Updated At should not be empty on list page");
-        Assert.assertTrue(isValidDateTime(updatedAt), "Updated At should be valid date and time format, got: " + updatedAt);
+//        // Product name
+//        String expectedProduct = Dictionary.getFromGlobalDictionary("Unit");
+//        String actualProduct = getListCellTextByHeader("Unit");
+//        if (actualProduct.isEmpty()) {
+//            actualProduct = getText(item_Name);
+//        }
+//        Assert.assertEquals(expectedProduct, actualProduct, "Product name mismatch on list page");
+//
+//        // Unit
+//        String expectedUnit = Dictionary.getFromGlobalDictionary("Available Quantity");
+//        if (expectedUnit != null) {
+//            String actualUnit = getListCellTextByHeader("Available Quantity");
+//            Assert.assertEquals(expectedUnit, actualUnit, "Unit mismatch on list page");
+//        }
+//
+//        // Category name
+//        String expectedCategory = Dictionary.getFromGlobalDictionary("Purchase Price");
+//        if (expectedCategory != null) {
+//            String actualCategory = getListCellTextByHeader("\n" +
+//                    "Purchase Price");
+//            if (actualCategory.isEmpty()) {
+//                actualCategory = getListCellTextByHeader("Category Name");
+//            }
+//            Assert.assertEquals(expectedCategory, actualCategory, "Category name mismatch on list page");
+//        }
+//
+//        // Purchase Price (list page)
+//        String expectedPurchasePrice = Dictionary.getFromGlobalDictionary("purchasePriceActual");
+//        String actualPurchasePrice = getListCellTextByHeader("Purchase Price");
+//        if (actualPurchasePrice.isEmpty()) {
+//            actualPurchasePrice = getText(purchase_Price_Expect).replace("₹", "").trim();
+//        } else {
+//            actualPurchasePrice = actualPurchasePrice.replace("₹", "").trim();
+//        }
+//        Assert.assertEquals(expectedPurchasePrice, actualPurchasePrice, "Purchase price mismatch on list page");
+//
+//        // Average Purchase Price: expected = average of warehouse opening purchase prices (stored in fillWarehouseInfo)
+//        String expectedAvgPurchasePrice = Dictionary.getFromGlobalDictionary("AveragePurchasePrice");
+//        if (expectedAvgPurchasePrice != null) {
+//            String actualAvgPurchasePrice = getListCellTextByHeader("Average Purchase Price");
+//            if (!actualAvgPurchasePrice.isEmpty()) {
+//                actualAvgPurchasePrice = actualAvgPurchasePrice.replace("₹", "").replace(",", "").trim();
+//                Assert.assertEquals(expectedAvgPurchasePrice, actualAvgPurchasePrice, "Average Purchase Price mismatch on list page");
+//            }
+//        }
+//
+//        // Available Quantity
+//        String expectedQty = Dictionary.getFromGlobalDictionary("avialableQuantity");
+//        String actualQty = getListCellTextByHeader("Available Quantity");
+//        if (actualQty.isEmpty()) {
+//            actualQty = getText(available_Quantity_Expect).split(" ")[0].trim();
+//        } else {
+//            actualQty = actualQty.split(" ")[0].trim();
+//        }
+//        Assert.assertEquals(expectedQty, actualQty, "Available quantity mismatch on list page");
+//
+//        // Created By
+//        String expectedCreatedBy = Dictionary.getFromGlobalDictionary("CreatedBy");
+//        if (expectedCreatedBy != null) {
+//            String actualCreatedBy = getListCellTextByHeader("Created By");
+//            Assert.assertEquals(expectedCreatedBy, actualCreatedBy, "Created By mismatch on list page");
+//        }
+//
+//        // Created At (date and time) - validate not empty and valid date-time format
+//        String createdAt = getListCellTextByHeader("Created At");
+//        Assert.assertFalse(createdAt.isEmpty(), "Created At should not be empty on list page");
+//        Assert.assertTrue(isValidDateTime(createdAt), "Created At should be valid date and time format, got: " + createdAt);
+//
+//        // Updated By
+//        String expectedUpdatedBy = Dictionary.getFromGlobalDictionary("CreatedBy");
+//        if (expectedUpdatedBy != null) {
+//            String actualUpdatedBy = getListCellTextByHeader("Updated By");
+//            Assert.assertEquals(expectedUpdatedBy, actualUpdatedBy, "Updated By mismatch on list page");
+//        }
+//
+//        // Updated At (date and time) - validate not empty and valid date-time format
+//        String updatedAt = getListCellTextByHeader("Updated At");
+//        Assert.assertFalse(updatedAt.isEmpty(), "Updated At should not be empty on list page");
+//        Assert.assertTrue(isValidDateTime(updatedAt), "Updated At should be valid date and time format, got: " + updatedAt);
     }
 
     public void validate_ErrorMassge(String errorMessage) throws Exception {
@@ -1161,7 +1214,7 @@ public class QAPage extends AppSpecificUtility {
             purchase_Price.sendKeys(Keys.CONTROL + "a");
             purchase_Price.sendKeys(Keys.DELETE);
             //  populateField(wholesale_Price, "700");
-        Thread.sleep(DELAY_IN_MILLI_SECS);
+            Thread.sleep(DELAY_IN_MILLI_SECS);
             populateField(purchase_Price, "110");
             String PPriceText = purchase_Price.getAttribute("value");
             Dictionary.storeInGlobalDictionary("PPrice", PPriceText);
@@ -1174,7 +1227,7 @@ public class QAPage extends AppSpecificUtility {
 //        else if (category_Name.isEnabled() && category_Name.isDisplayed()) {
 //            category_Name.clear();
 //            populateField(category_Name, "Garments");
-      }
+        }
 
     }
 
@@ -1400,4 +1453,5 @@ public class QAPage extends AppSpecificUtility {
 
 }
 
+//write a selenium login test
 

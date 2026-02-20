@@ -8,25 +8,25 @@ Feature: 1-1-TC-01-Sample CREATION -
   Scenario Outline: Validate Creation Of the Product
     When User login on "<role>" in Wakanda Books
     When User select "<company>" on login page
-#    When User clicks on "<Module>" and Select "<SubModule>"
-#    When User clicks on "Add Product" in Items list
-#    And User Field as "Product" and add Values "Locker", "Textiles","Electronics products" details
-#    And User add Additional Information details
-#    And User select "<Warehouse>" details and Information details
-#    When User Clicks on "<button>" in Wakanda Books
-#    Then User Validate the in Items List
-#   # Then User Validate the Item in Full validation
-#    When User clicks on "<Actions>" and fill the details
-#    When User fill the update details
-#    When User Clicks on "<button>" in Wakanda Books
-#    Then User validated updated the message
-#    When User clicks on "<Action>" and fill the details
-#    When User Clicks on delete in Wakanda Books
-#    Then User validated deleted the message
-#    When User Clicks on deleted List
-#    Then User validated deleted Item
-#    When User Restore the deleted item
-#    Then User Validate the Restore the item
+    When User clicks on "<Module>" and Select "<SubModule>"
+    When User clicks on "Add Product" in Items list
+    And User Field as "Product" and add Values "Locker", "Textiles","Electronics products" details
+    And User add Additional Information details
+    And User select "<Warehouse>" details and Information details
+    When User Clicks on "<button>" in Wakanda Books
+    Then User Validate the in Items List
+   Then User Validate the Item in Full validation
+    When User clicks on "<Actions>" and fill the details
+    When User fill the update details
+    When User Clicks on "<button>" in Wakanda Books
+    Then User validated updated the message
+    When User clicks on "<Action>" and fill the details
+    When User Clicks on delete in Wakanda Books
+    Then User validated deleted the message
+    When User Clicks on deleted List
+    Then User validated deleted Item
+    When User Restore the deleted item
+    Then User Validate the Restore the item
 
     Examples:
       | role        | company       | Module | SubModule  | Warehouse     | button | Actions | Action |
