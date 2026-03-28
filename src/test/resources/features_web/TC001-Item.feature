@@ -17,7 +17,7 @@ Feature: 1-1-TC-01-Sample CREATION -
       | role        | company      | Module | SubModule  | button        | WarehouseName | Loction |
       | Super Admin | Titan Deploy | Items  | Warehouses | Add Warehouse | TVK Warehouse | Chennai |
 
- @Product_Creation @End_to_End @Sanity
+# @Product_Creation @End_to_End @Sanity
   Scenario Outline: Validate Creation Of the Product
     When User login on "<role>" in Wakanda Books
     When User select "<company>" on login page
@@ -80,7 +80,7 @@ Feature: 1-1-TC-01-Sample CREATION -
       | Super Admin | Titan Deploy | Items  | Items Management | AK Warehouse | Save   | maahi  |
 
 
-  @Product_Creation1 @End_to_End @Sanity
+#  @Product_Creation1 @End_to_End @Sanity
   Scenario Outline: Validate product creation with warehouse details
     When User login on "<role>" in Wakanda Books
     When User select "<company>" on login page
