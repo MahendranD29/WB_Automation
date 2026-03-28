@@ -22,7 +22,8 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.38.0</version>
+               <version>4.40.0</version>
+
         </dependency>
         <!--  https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager  -->
         <dependency>
@@ -274,6 +275,7 @@
                 <version>2.22.2</version>
                 <configuration>
                     <systemPropertyVariables>
+                        <!--suppress UnresolvedMavenProperty -->
                         <cucumber.filter.tags>${cucumber.filter.tags}</cucumber.filter.tags>
                     </systemPropertyVariables>
                     <includes>**/RunCukesByFeatureWeb.java</includes>

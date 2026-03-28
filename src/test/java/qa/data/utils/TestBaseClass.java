@@ -2,11 +2,14 @@ package qa.data.utils;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import net.thucydides.core.webdriver.DriverSource;
+import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
@@ -15,6 +18,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.HashMap;
 import java.util.Properties;
@@ -46,7 +50,7 @@ public abstract class TestBaseClass implements DriverSource {
             prop = new Properties();
 
             try {
-                FileInputStream fs = new FileInputStream("C:\\Users\\futur\\IdeaProjects\\WB_Automation\\src\\test\\resources\\config.properties");
+                FileInputStream fs = new FileInputStream("resources/config.properties");
                 prop.load(fs);
                 LocalorRemoteBrowser = prop.getProperty("Browser");
             } catch (FileNotFoundException var3) {
@@ -120,87 +124,87 @@ public abstract class TestBaseClass implements DriverSource {
                 var6.printStackTrace();
             }
         }
-//        else if (Browser.equalsIgnoreCase("LocalChrome")) {
-//            System.out.println("Executing on LOCAL CHROME");
-//            ChromeOptions chromeOptions;
-//            LoggingPreferences logPrefs;
-//            if (tlDriver != null) {
-//               // WebDriverManager.chromedriver().setup();
-//                chromeOptions = new ChromeOptions();
-//                logPrefs = new LoggingPreferences();
-//                logPrefs.enable(LogType.BROWSER, Level.ALL);
-//                chromeOptions.setCapability(chromeOptions.LOGGING_PREFS, logPrefs);
-//                setDownloadPref(chromeOptions);
-//                chromeOptions.addArguments("--disable-search-engine-choice-screen");
-//                chromeOptions.addArguments("window-size=1920,1080");
-//                chromeOptions.addArguments("--ignore-certificate-errors");
-//                chromeOptions.addArguments("--start-maximized");
-//                WebDriverManager.chromedriver().clearDriverCache().setup();
-//                tlDriver.set(new ChromeDriver(chromeOptions));
-//                browserName = chromeOptions.getBrowserName();
-//                browserVersion = chromeOptions.getBrowserVersion();
-//                getDriver().manage().window().maximize();
-//                tlDriver.get().manage().deleteAllCookies();
-//                tlDriver.get().manage().timeouts().pageLoadTimeout(Duration.ofSeconds(Long.parseLong(prop.getProperty("EXPLICT_WAIT_TIME"))));
-//                tlDriver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(Long.parseLong(prop.getProperty("IMPLICT_WAIT_TIME"))));
-//                System.out.println("URL is:" + URL);
-//                tlDriver.get().get(URL);
-//
-//            }
-//
-//        }
-
         else if (Browser.equalsIgnoreCase("LocalChrome")) {
-
             System.out.println("Executing on LOCAL CHROME");
-
+            ChromeOptions chromeOptions;
+            LoggingPreferences logPrefs;
             if (tlDriver != null) {
-
-                ChromeOptions chromeOptions = new ChromeOptions();
-
-                LoggingPreferences logPrefs = new LoggingPreferences();
+               // WebDriverManager.chromedriver().setup();
+                chromeOptions = new ChromeOptions();
+                logPrefs = new LoggingPreferences();
                 logPrefs.enable(LogType.BROWSER, Level.ALL);
                 chromeOptions.setCapability(chromeOptions.LOGGING_PREFS, logPrefs);
-
                 setDownloadPref(chromeOptions);
-
                 chromeOptions.addArguments("--disable-search-engine-choice-screen");
                 chromeOptions.addArguments("window-size=1920,1080");
                 chromeOptions.addArguments("--ignore-certificate-errors");
                 chromeOptions.addArguments("--start-maximized");
-
-                // ⭐ Headless Support (Cloud Execution)
-                String headless = prop.getProperty("headless");
-
-                if (headless != null && headless.equalsIgnoreCase("true")) {
-
-                    System.out.println("Running in HEADLESS mode");
-
-                    chromeOptions.addArguments("--headless=new");
-                    chromeOptions.addArguments("--no-sandbox");
-                    chromeOptions.addArguments("--disable-dev-shm-usage");
-                }
-
                 WebDriverManager.chromedriver().clearDriverCache().setup();
-
                 tlDriver.set(new ChromeDriver(chromeOptions));
-
                 browserName = chromeOptions.getBrowserName();
                 browserVersion = chromeOptions.getBrowserVersion();
-
                 getDriver().manage().window().maximize();
                 tlDriver.get().manage().deleteAllCookies();
-
-                tlDriver.get().manage().timeouts().pageLoadTimeout(
-                        Duration.ofSeconds(Long.parseLong(prop.getProperty("EXPLICT_WAIT_TIME"))));
-
-                tlDriver.get().manage().timeouts().implicitlyWait(
-                        Duration.ofSeconds(Long.parseLong(prop.getProperty("IMPLICT_WAIT_TIME"))));
-
+                tlDriver.get().manage().timeouts().pageLoadTimeout(Duration.ofSeconds(Long.parseLong(prop.getProperty("EXPLICT_WAIT_TIME"))));
+                tlDriver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(Long.parseLong(prop.getProperty("IMPLICT_WAIT_TIME"))));
                 System.out.println("URL is:" + URL);
                 tlDriver.get().get(URL);
+
             }
+
         }
+
+//        else if (Browser.equalsIgnoreCase("LocalChrome")) {
+//
+//            System.out.println("Executing on LOCAL CHROME");
+//
+//            if (tlDriver != null) {
+//
+//                ChromeOptions chromeOptions = new ChromeOptions();
+//
+//                LoggingPreferences logPrefs = new LoggingPreferences();
+//                logPrefs.enable(LogType.BROWSER, Level.ALL);
+//                chromeOptions.setCapability(chromeOptions.LOGGING_PREFS, logPrefs);
+//
+//                setDownloadPref(chromeOptions);
+//
+//                chromeOptions.addArguments("--disable-search-engine-choice-screen");
+//                chromeOptions.addArguments("window-size=1920,1080");
+//                chromeOptions.addArguments("--ignore-certificate-errors");
+//                chromeOptions.addArguments("--start-maximized");
+//
+//                // ⭐ Headless Support (Cloud Execution)
+//                String headless = prop.getProperty("headless");
+//
+//                if (headless != null && headless.equalsIgnoreCase("true")) {
+//
+//                    System.out.println("Running in HEADLESS mode");
+//
+//                    chromeOptions.addArguments("--headless=new");
+//                    chromeOptions.addArguments("--no-sandbox");
+//                    chromeOptions.addArguments("--disable-dev-shm-usage");
+//                }
+//
+//                WebDriverManager.chromedriver().clearDriverCache().setup();
+//
+//                tlDriver.set(new ChromeDriver(chromeOptions));
+//
+//                browserName = chromeOptions.getBrowserName();
+//                browserVersion = chromeOptions.getBrowserVersion();
+//
+//                getDriver().manage().window().maximize();
+//                tlDriver.get().manage().deleteAllCookies();
+//
+//                tlDriver.get().manage().timeouts().pageLoadTimeout(
+//                        Duration.ofSeconds(Long.parseLong(prop.getProperty("EXPLICT_WAIT_TIME"))));
+//
+//                tlDriver.get().manage().timeouts().implicitlyWait(
+//                        Duration.ofSeconds(Long.parseLong(prop.getProperty("IMPLICT_WAIT_TIME"))));
+//
+//                System.out.println("URL is:" + URL);
+//                tlDriver.get().get(URL);
+//            }
+//        }
     }
 
     public static String getURL(String environmentName) {
@@ -265,5 +269,45 @@ public abstract class TestBaseClass implements DriverSource {
 
     }
 
+    public String readFromExcelFile(String sheetName, int rowNum, int cellNum) throws IOException {
+
+        File file = new File(prop.getProperty("EXCELFILE_PATH"));
+
+        try (FileInputStream stream = new FileInputStream(file);
+             Workbook workbook = new XSSFWorkbook(stream)) {
+
+            Sheet sheet = workbook.getSheet(sheetName);
+            Row row = sheet.getRow(rowNum);
+            Cell cell = row.getCell(cellNum);
+
+            if (cell == null) return "";
+
+            switch (cell.getCellType()) {
+
+                case STRING:
+                    return cell.getStringCellValue();
+
+                case NUMERIC:
+                    if (DateUtil.isCellDateFormatted(cell)) {
+                        Date date = cell.getDateCellValue();
+                        return new SimpleDateFormat("dd-MM-yyyy").format(date);
+                    } else {
+                        double num = cell.getNumericCellValue();
+                        long round = Math.round(num);
+
+                        return (num == round) ? String.valueOf(round) : String.valueOf(num);
+                    }
+
+                case BOOLEAN:
+                    return String.valueOf(cell.getBooleanCellValue());
+
+                case BLANK:
+                    return "";
+
+                default:
+                    return "";
+            }
+        }
+    }
 }
 

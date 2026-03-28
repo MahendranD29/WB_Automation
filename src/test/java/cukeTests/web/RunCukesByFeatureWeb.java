@@ -5,7 +5,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(features = {"src/test/resources/features_web"},
-        tags = "@End_to_End",
+        tags = "@Sanity",
         plugin = {"pretty", "html:target/cucumber-reports/cucumber-pretty.html",
                 "json:target/cucumber-reports/json-reports/MainRunner/CucumberTestReport.json",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
